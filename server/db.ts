@@ -1,6 +1,6 @@
 import { eq } from "drizzle-orm";
 import { drizzle } from "drizzle-orm/mysql2";
-import { InsertUser, users } from "../drizzle/schema";
+import { InsertUser, users, economicData, aiAnalysisResults } from "../drizzle/schema";
 import { ENV } from './_core/env';
 
 let _db: ReturnType<typeof drizzle> | null = null;
@@ -89,4 +89,93 @@ export async function getUserByOpenId(openId: string) {
   return result.length > 0 ? result[0] : undefined;
 }
 
-// TODO: add feature queries here as your schema grows.
+/**
+ * Get all economic data
+ */
+export async function getAllEconomicData() {
+  const db = await getDb();
+  if (!db) {
+    console.warn("[Database] Cannot get economic data: database not available");
+    return [];
+  }
+
+  try {
+    const result = await db.select().from(economicData);
+    return result;
+  } catch (error) {
+    console.error("[Database] Failed to get economic data:", error);
+    return [];
+  }
+}
+
+/**
+ * Get economic data by country code
+ */
+export async function getEconomicDataByCountry(countryCode: string) {
+  const db = await getDb();
+  if (!db) {
+    console.warn("[Database] Cannot get economic data: database not available");
+    return [];
+  }
+
+  try {
+    const result = await db
+      .select()
+      .from(economicData)
+      .where(eq(economicData.countryCode, countryCode));
+    return result;
+  } catch (error) {
+    console.error("[Database] Failed to get economic data by country:", error);
+    return [];
+  }
+}
+
+/**
+ * Get economic data by indicator code
+ */
+export async function getEconomicDataByIndicator(indicatorCode: string) {
+  const db = await getDb();
+  if (!db) {
+    console.warn("[Database] Cannot get economic data: database not available");
+    return [];
+  }
+
+  try {
+    const result = await db
+      .select()
+      .from(economicData)
+      .where(eq(economicData.indicatorCode, indicatorCode));
+    return result;
+  } catch (error) {
+    console.error("[Database] Failed to get economic data by indicator:", error);
+    return [];
+  }
+}
+
+/**
+ * Get AI analysis results
+ */
+export async function getAIAnalysisResults(analysisType?: string, targetCode?: string) {
+  const db = await getDb();
+  if (!db) {
+    console.warn("[Database] Cannot get AI analysis results: database not available");
+    return [];
+  }
+
+  try {
+    let query: any = db.select().from(aiAnalysisResults);
+    
+    if (analysisType) {
+      query = query.where(eq(aiAnalysisResults.analysisType, analysisType));
+    }
+    
+    if (targetCode) {
+      query = query.where(eq(aiAnalysisResults.targetCode, targetCode));
+    }
+    
+    return await query;
+  } catch (error) {
+    console.error("[Database] Failed to get AI analysis results:", error);
+    return [];
+  }
+}

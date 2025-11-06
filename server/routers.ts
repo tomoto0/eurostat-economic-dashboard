@@ -17,12 +17,35 @@ export const appRouter = router({
     }),
   }),
 
-  // TODO: add feature routers here, e.g.
-  // todo: router({
-  //   list: protectedProcedure.query(({ ctx }) =>
-  //     db.getUserTodos(ctx.user.id)
-  //   ),
-  // }),
+  dashboard: router({
+    getEconomicData: publicProcedure.query(async () => {
+      const { getAllEconomicData } = await import("./db");
+      return getAllEconomicData();
+    }),
+    getCountryData: publicProcedure.input((val: any) => {
+      if (typeof val !== "string") throw new Error("Country code must be a string");
+      return val;
+    }).query(async ({ input }) => {
+      const { getEconomicDataByCountry } = await import("./db");
+      return getEconomicDataByCountry(input);
+    }),
+    getIndicatorData: publicProcedure.input((val: any) => {
+      if (typeof val !== "string") throw new Error("Indicator code must be a string");
+      return val;
+    }).query(async ({ input }) => {
+      const { getEconomicDataByIndicator } = await import("./db");
+      return getEconomicDataByIndicator(input);
+    }),
+    getAnalysisResults: publicProcedure.input((val: any) => {
+      return {
+        analysisType: val?.analysisType as string | undefined,
+        targetCode: val?.targetCode as string | undefined,
+      };
+    }).query(async ({ input }) => {
+      const { getAIAnalysisResults } = await import("./db");
+      return getAIAnalysisResults(input.analysisType, input.targetCode);
+    }),
+  }),
 });
 
 export type AppRouter = typeof appRouter;
