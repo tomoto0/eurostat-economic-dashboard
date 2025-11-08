@@ -1,9 +1,41 @@
-import { useAuth } from "@/_core/hooks/useAuth";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Loader2, TrendingUp, Globe, BarChart3 } from "lucide-react";
-import { getLoginUrl } from "@/const";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useMemo } from "react";
+import {
+  LineChart,
+  Line,
+  BarChart,
+  Bar,
+  XAxis,
+  YAxis,
+  CartesianGrid,
+  Tooltip,
+  Legend,
+  ResponsiveContainer,
+  ComposedChart,
+} from "recharts";
+
+interface EconomicData {
+  country: string;
+  countryCode: string;
+  indicator: string;
+  indicatorCode: string;
+  year: number;
+  value: number | string;
+  unit?: string;
+}
+
+interface CountryData {
+  name: string;
+  data: EconomicData[];
+}
+
+interface EconomicDataFile {
+  byCountry: Record<string, CountryData>;
+  byIndicator: Record<string, any>;
+  summary: any;
+}
 
 interface AnalysisResult {
   title: string;
@@ -19,30 +51,38 @@ interface AnalysisResult {
 }
 
 export default function Home() {
-  const { user, loading, isAuthenticated } = useAuth();
   const [analysisData, setAnalysisData] = useState<AnalysisResult | null>(null);
+  const [economicData, setEconomicData] = useState<EconomicDataFile | null>(null);
   const [selectedCountry, setSelectedCountry] = useState<string>("EU27_2020");
   const [isLoadingData, setIsLoadingData] = useState(true);
 
-  // Load analysis data from public JSON file
+  // Load analysis and economic data
   useEffect(() => {
-    const loadAnalysisData = async () => {
+    const loadData = async () => {
       try {
         setIsLoadingData(true);
-        const response = await fetch("/ai-analysis.json");
-        if (!response.ok) {
-          throw new Error("Failed to load analysis data");
+        const [analysisRes, economicRes] = await Promise.all([
+          fetch("/ai-analysis.json"),
+          fetch("/economic-data.json"),
+        ]);
+
+        if (!analysisRes.ok || !economicRes.ok) {
+          throw new Error("Failed to load data");
         }
-        const data = await response.json();
-        setAnalysisData(data);
+
+        const analysis = await analysisRes.json();
+        const economic = await economicRes.json();
+
+        setAnalysisData(analysis);
+        setEconomicData(economic);
       } catch (error) {
-        console.error("Failed to load analysis data:", error);
+        console.error("Failed to load data:", error);
       } finally {
         setIsLoadingData(false);
       }
     };
 
-    loadAnalysisData();
+    loadData();
   }, []);
 
   const getCountryName = (code: string): string => {
@@ -69,7 +109,56 @@ export default function Home() {
     return countryNames[code] || code;
   };
 
-  if (loading || isLoadingData) {
+  // Get country data for selected country
+  const countryData = useMemo(() => {
+    if (!economicData || !economicData.byCountry[selectedCountry]) {
+      return null;
+    }
+    return economicData.byCountry[selectedCountry];
+  }, [economicData, selectedCountry]);
+
+  // Prepare chart data for a specific indicator
+  const getIndicatorChartData = (indicatorCode: string) => {
+    if (!countryData) return [];
+
+    const indicatorData = countryData.data
+      .filter((d) => d.indicatorCode === indicatorCode)
+      .sort((a, b) => a.year - b.year);
+
+    return indicatorData.map((d) => ({
+      year: d.year,
+      value: typeof d.value === "string" ? parseFloat(d.value) : d.value,
+      unit: d.unit,
+      indicator: d.indicator,
+    }));
+  };
+
+  // Get all indicators for the country
+  const countryIndicators = useMemo(() => {
+    if (!countryData) return [];
+    const indicators = new Map<string, EconomicData>();
+    countryData.data.forEach((d) => {
+      if (!indicators.has(d.indicatorCode)) {
+        indicators.set(d.indicatorCode, d);
+      }
+    });
+    return Array.from(indicators.values());
+  }, [countryData]);
+
+  // Get latest values for key indicators
+  const latestValues = useMemo(() => {
+    if (!countryData) return {};
+
+    const latestByIndicator: Record<string, any> = {};
+    countryData.data.forEach((d) => {
+      if (!latestByIndicator[d.indicatorCode] || d.year > latestByIndicator[d.indicatorCode].year) {
+        latestByIndicator[d.indicatorCode] = d;
+      }
+    });
+    return latestByIndicator;
+  }, [countryData]);
+
+  if (isLoadingData) {
     return (
       <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 to-indigo-50">
         <div className="text-center">
@@ -84,21 +173,12 @@ export default function Home() {
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-50">
       {/* Header */}
       <header className="bg-white shadow-sm border-b border-blue-100">
-        <div className="max-w-7xl mx-auto px-4 py-6 flex items-center justify-between">
-          <div className="flex items-center gap-3">
-            <Globe className="w-8 h-8 text-blue-600" />
-            <div>
-              <h1 className="text-3xl font-bold text-gray-900">Eurostat Economic Dashboard</h1>
-              <p className="text-sm text-gray-600">EU加盟国の経済指標分析 - AI powered by Manus LLM</p>
-            </div>
+        <div className="max-w-7xl mx-auto px-4 py-6 flex items-center gap-3">
+          <Globe className="w-8 h-8 text-blue-600" />
+          <div>
+            <h1 className="text-3xl font-bold text-gray-900">Eurostat Economic Dashboard</h1>
+            <p className="text-sm text-gray-600">EU加盟国の経済指標分析 - AI powered by Manus LLM</p>
           </div>
-          {isAuthenticated ? (
-            <div className="text-right">
-              <p className="text-sm text-gray-600">ログイン中: {user?.name || "User"}</p>
-            </div>
-          ) : (
-            <Button onClick={() => (window.location.href = getLoginUrl())}>ログイン</Button>
-          )}
         </div>
       </header>
 
@@ -201,86 +281,244 @@ export default function Home() {
           </div>
 
           {/* Country Analysis Card */}
-          {analysisData && analysisData.countries && analysisData.countries[selectedCountry] && (
-            <Card className="border-purple-200 bg-white">
+{countryData && analysisData && analysisData.countries && (
+            <Card className={analysisData.countries[selectedCountry] ? "border-purple-200 bg-white mb-8" : "border-yellow-200 bg-yellow-50 mb-8"}>
+              {analysisData.countries[selectedCountry] ? (
+                <>
+                  <CardHeader>
+                    <CardTitle>{getCountryName(selectedCountry)}の経済分析</CardTitle>
+                  </CardHeader>
+                  <CardContent className="space-y-4">
+                    <div>
+                      <h4 className="font-semibold text-gray-900 mb-2">経済概要</h4>
+                      <p className="text-gray-700">{analysisData.countries[selectedCountry].economicOverview}</p>
+                    </div>
+
+                    <div className="grid grid-cols-2 gap-4">
+                      <div>
+                        <h4 className="font-semibold text-gray-900 mb-2">強み</h4>
+                        <ul className="space-y-1">
+                          {analysisData.countries[selectedCountry].strengths && analysisData.countries[selectedCountry].strengths.map((strength: string, idx: number) => (
+                            <li key={idx} className="text-sm text-gray-700">• {strength}</li>
+                          ))}
+                        </ul>
+                      </div>
+                      <div>
+                        <h4 className="font-semibold text-gray-900 mb-2">課題</h4>
+                        <ul className="space-y-1">
+                          {analysisData.countries[selectedCountry].challenges && analysisData.countries[selectedCountry].challenges.map((challenge: string, idx: number) => (
+                            <li key={idx} className="text-sm text-gray-700">• {challenge}</li>
+                          ))}
+                        </ul>
+                      </div>
+                    </div>
+
+                    <div>
+                      <h4 className="font-semibold text-gray-900 mb-2">経済トレンド</h4>
+                      <div className="space-y-2 text-sm">
+                        {analysisData.countries[selectedCountry].trends && (
+                          <>
+                            <div><span className="font-medium">GDP:</span> {analysisData.countries[selectedCountry].trends.gdp}</div>
+                            <div><span className="font-medium">雇用:</span> {analysisData.countries[selectedCountry].trends.employment}</div>
+                            <div><span className="font-medium">インフレ:</span> {analysisData.countries[selectedCountry].trends.inflation}</div>
+                          </>
+                        )}
+                      </div>
+                    </div>
+
+                    <div>
+                      <h4 className="font-semibold text-gray-900 mb-2">今後の展望</h4>
+                      <p className="text-gray-700">{analysisData.countries[selectedCountry].outlook}</p>
+                    </div>
+                  </CardContent>
+                </>
+              ) : (
+                <CardContent className="pt-6">
+                  <p className="text-gray-700">選択した国の詳細な経済分析は現在利用できません。利用可能な国：ドイツ、スペイン、フランス、イタリア、オランダ</p>
+                </CardContent>
+              )}
+            </Card>
+          )}
+
+          {/* Economic Indicators Charts */}
+          {countryData && (
+            <div className="space-y-6">
+              <h3 className="text-xl font-bold text-gray-900 mt-8 mb-4">経済指標の推移</h3>
+
+              {/* Unemployment Rate */}
+              {getIndicatorChartData("teilm020").length > 0 && (
+                <Card className="bg-white border-gray-200">
+                  <CardHeader>
+                    <CardTitle className="text-lg">失業率（性別）の推移</CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <ResponsiveContainer width="100%" height={300}>
+                      <LineChart data={getIndicatorChartData("teilm020")}>
+                        <CartesianGrid strokeDasharray="3 3" />
+                        <XAxis dataKey="year" />
+                        <YAxis />
+                        <Tooltip 
+                          formatter={(value) => `${value}%`}
+                          labelFormatter={(label) => `年: ${label}`}
+                        />
+                        <Legend />
+                        <Line 
+                          type="monotone" 
+                          dataKey="value" 
+                          stroke="#3b82f6" 
+                          dot={{ fill: "#3b82f6" }}
+                          name="失業率 (%)"
+                        />
+                      </LineChart>
+                    </ResponsiveContainer>
+                  </CardContent>
+                </Card>
+              )}
+
+              {/* GDP */}
+              {getIndicatorChartData("nama_10_gdp").length > 0 && (
+                <Card className="bg-white border-gray-200">
+                  <CardHeader>
+                    <CardTitle className="text-lg">GDP（現在価格）の推移</CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <ResponsiveContainer width="100%" height={300}>
+                      <BarChart data={getIndicatorChartData("nama_10_gdp")}>
+                        <CartesianGrid strokeDasharray="3 3" />
+                        <XAxis dataKey="year" />
+                        <YAxis />
+                        <Tooltip 
+                          formatter={(value) => `€${(value as number).toLocaleString()}`}
+                          labelFormatter={(label) => `年: ${label}`}
+                        />
+                        <Legend />
+                        <Bar 
+                          dataKey="value" 
+                          fill="#10b981" 
+                          name="GDP (€百万)"
+                        />
+                      </BarChart>
+                    </ResponsiveContainer>
+                  </CardContent>
+                </Card>
+              )}
+
+              {/* GDP Growth Rate */}
+              {getIndicatorChartData("tec00115").length > 0 && (
+                <Card className="bg-white border-gray-200">
+                  <CardHeader>
+                    <CardTitle className="text-lg">GDP成長率（実質）の推移</CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <ResponsiveContainer width="100%" height={300}>
+                      <ComposedChart data={getIndicatorChartData("tec00115")}>
+                        <CartesianGrid strokeDasharray="3 3" />
+                        <XAxis dataKey="year" />
+                        <YAxis />
+                        <Tooltip 
+                          formatter={(value) => `${value}%`}
+                          labelFormatter={(label) => `年: ${label}`}
+                        />
+                        <Legend />
+                        <Bar 
+                          dataKey="value" 
+                          fill="#8b5cf6"
+                          name="成長率 (%)"
+                        />
+                      </ComposedChart>
+                    </ResponsiveContainer>
+                  </CardContent>
+                </Card>
+              )}
+
+              {/* Inflation Rate */}
+              {getIndicatorChartData("prc_hicp_aind") && getIndicatorChartData("prc_hicp_aind").length > 0 && (
+                <Card className="bg-white border-gray-200">
+                  <CardHeader>
+                    <CardTitle className="text-lg">インフレ率（HICP）の推移</CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <ResponsiveContainer width="100%" height={300}>
+                      <LineChart data={getIndicatorChartData("prc_hicp_aind")}>
+                        <CartesianGrid strokeDasharray="3 3" />
+                        <XAxis dataKey="year" />
+                        <YAxis />
+                        <Tooltip 
+                          formatter={(value) => `${value}%`}
+                          labelFormatter={(label) => `年: ${label}`}
+                        />
+                        <Legend />
+                        <Line 
+                          type="monotone" 
+                          dataKey="value" 
+                          stroke="#f59e0b" 
+                          dot={{ fill: "#f59e0b" }}
+                          name="インフレ率 (%)"
+                        />
+                      </LineChart>
+                    </ResponsiveContainer>
+                  </CardContent>
+                </Card>
+              )}
+
+              {/* Per Capita GDP */}
+              {getIndicatorChartData("nama_10_pc_gdp").length > 0 && (
+                <Card className="bg-white border-gray-200">
+                  <CardHeader>
+                    <CardTitle className="text-lg">一人当たりGDPの推移</CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <ResponsiveContainer width="100%" height={300}>
+                      <LineChart data={getIndicatorChartData("nama_10_pc_gdp")}>
+                        <CartesianGrid strokeDasharray="3 3" />
+                        <XAxis dataKey="year" />
+                        <YAxis />
+                        <Tooltip 
+                          formatter={(value) => `€${(value as number).toLocaleString()}`}
+                          labelFormatter={(label) => `年: ${label}`}
+                        />
+                        <Legend />
+                        <Line 
+                          type="monotone" 
+                          dataKey="value" 
+                          stroke="#06b6d4" 
+                          dot={{ fill: "#06b6d4" }}
+                          name="一人当たりGDP (€)"
+                        />
+                      </LineChart>
+                    </ResponsiveContainer>
+                  </CardContent>
+                </Card>
+              )}
+            </div>
+          )}
+
+          {/* Latest Values Summary */}
+          {countryData && (
+            <Card className="bg-white border-gray-200 mt-8">
               <CardHeader>
-                <CardTitle>{getCountryName(selectedCountry)}の経済分析</CardTitle>
+                <CardTitle>{getCountryName(selectedCountry)}の最新経済指標</CardTitle>
               </CardHeader>
-              <CardContent className="space-y-4">
-                <div>
-                  <h4 className="font-semibold text-gray-900 mb-2">経済概要</h4>
-                  <p className="text-gray-700">{analysisData.countries[selectedCountry].economicOverview}</p>
-                </div>
-
-                <div className="grid grid-cols-2 gap-4">
-                  <div>
-                    <h4 className="font-semibold text-gray-900 mb-2">強み</h4>
-                    <ul className="space-y-1">
-                      {analysisData.countries[selectedCountry].strengths && analysisData.countries[selectedCountry].strengths.map((strength: string, idx: number) => (
-                        <li key={idx} className="text-sm text-gray-700">• {strength}</li>
-                      ))}
-                    </ul>
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-gray-900 mb-2">課題</h4>
-                    <ul className="space-y-1">
-                      {analysisData.countries[selectedCountry].challenges && analysisData.countries[selectedCountry].challenges.map((challenge: string, idx: number) => (
-                        <li key={idx} className="text-sm text-gray-700">• {challenge}</li>
-                      ))}
-                    </ul>
-                  </div>
-                </div>
-
-                <div>
-                  <h4 className="font-semibold text-gray-900 mb-2">経済トレンド</h4>
-                  <div className="space-y-2 text-sm">
-                    {analysisData.countries[selectedCountry].trends && (
-                      <>
-                        <div><span className="font-medium">GDP:</span> {analysisData.countries[selectedCountry].trends.gdp}</div>
-                        <div><span className="font-medium">雇用:</span> {analysisData.countries[selectedCountry].trends.employment}</div>
-                        <div><span className="font-medium">インフレ:</span> {analysisData.countries[selectedCountry].trends.inflation}</div>
-                      </>
-                    )}
-                  </div>
-                </div>
-
-                <div>
-                  <h4 className="font-semibold text-gray-900 mb-2">今後の展望</h4>
-                  <p className="text-gray-700">{analysisData.countries[selectedCountry].outlook}</p>
+              <CardContent>
+                <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+                  {countryIndicators.map((indicator) => {
+                    const latest = latestValues[indicator.indicatorCode];
+                    if (!latest) return null;
+                    return (
+                      <div key={indicator.indicatorCode} className="p-4 bg-gray-50 rounded-lg">
+                        <p className="text-sm font-medium text-gray-600">{indicator.indicator}</p>
+                        <p className="text-2xl font-bold text-gray-900 mt-2">
+                          {typeof latest.value === "string" ? latest.value : latest.value.toLocaleString()}
+                        </p>
+                        <p className="text-xs text-gray-500 mt-1">{latest.unit} ({latest.year}年)</p>
+                      </div>
+                    );
+                  })}
                 </div>
               </CardContent>
             </Card>
           )}
         </section>
-
-        {/* Key Indicators */}
-        {analysisData && analysisData.indicators && (
-          <section>
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">主要経済指標</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              {Object.entries(analysisData.indicators).map(([code, indicator]: [string, any]) => (
-                <Card key={code} className="border-gray-200 bg-white">
-                  <CardHeader>
-                    <CardTitle className="text-lg">{indicator.indicator}</CardTitle>
-                  </CardHeader>
-                  <CardContent className="space-y-2">
-                    <p className="text-sm text-gray-700">{indicator.analysis}</p>
-                    {indicator.insights && (
-                      <div>
-                        <h4 className="font-semibold text-gray-900 text-sm mb-1">インサイト</h4>
-                        <ul className="space-y-1">
-                          {indicator.insights.map((insight: string, idx: number) => (
-                            <li key={idx} className="text-xs text-gray-600">• {insight}</li>
-                          ))}
-                        </ul>
-                      </div>
-                    )}
-                  </CardContent>
-                </Card>
-              ))}
-            </div>
-          </section>
-        )}
       </main>
 
       {/* Footer */}
