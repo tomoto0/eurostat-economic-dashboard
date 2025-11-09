@@ -125,7 +125,16 @@ export default function Home() {
       .filter((d) => d.indicatorCode === indicatorCode)
       .sort((a, b) => a.year - b.year);
 
-    return indicatorData.map((d) => ({
+    // Get the last 10 years of data
+    const currentYear = new Date().getFullYear();
+    const tenYearsAgo = currentYear - 10;
+    
+    const filteredData = indicatorData.filter((d) => d.year >= tenYearsAgo);
+    
+    // If we have less than 10 years, return all available data
+    const dataToUse = filteredData.length > 0 ? filteredData : indicatorData;
+
+    return dataToUse.map((d) => ({
       year: d.year,
       value: typeof d.value === "string" ? parseFloat(d.value) : d.value,
       unit: d.unit,
@@ -223,6 +232,28 @@ export default function Home() {
                     <p className="text-sm text-gray-600">{analysisData.dataQuality}</p>
                   </div>
                 </div>
+
+                {/* Statistics Summary */}
+                {analysisData.statistics && (
+                  <div className="grid grid-cols-3 gap-4 pt-4 border-t border-gray-200">
+                    <div className="bg-blue-50 p-3 rounded-lg">
+                      <p className="text-xs text-gray-600 mb-1">対象国数</p>
+                      <p className="text-2xl font-bold text-blue-600">{Object.keys(analysisData.statistics).length}</p>
+                    </div>
+                    <div className="bg-green-50 p-3 rounded-lg">
+                      <p className="text-xs text-gray-600 mb-1">データレコード数</p>
+                      <p className="text-2xl font-bold text-green-600">
+                        {Object.values(analysisData.statistics).reduce((sum: number, country: any) => sum + (country.totalRecords || 0), 0)}
+                      </p>
+                    </div>
+                    <div className="bg-purple-50 p-3 rounded-lg">
+                      <p className="text-xs text-gray-600 mb-1">指標数</p>
+                      <p className="text-2xl font-bold text-purple-600">
+                        {analysisData.statistics[Object.keys(analysisData.statistics)[0]]?.indicators ? Object.keys(analysisData.statistics[Object.keys(analysisData.statistics)[0]].indicators).length : 0}
+                      </p>
+                    </div>
+                  </div>
+                )}
               </CardContent>
             </Card>
           </section>
