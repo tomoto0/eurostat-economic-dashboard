@@ -386,7 +386,7 @@ export default function Home() {
                     <ResponsiveContainer width="100%" height={300}>
                       <LineChart data={getIndicatorChartData("lfsa_urgan")}>
                         <CartesianGrid strokeDasharray="3 3" />
-                        <XAxis dataKey="year" />
+                        <XAxis dataKey="year" angle={-45} textAnchor="end" height={80} />
                         <YAxis />
                         <Tooltip 
                           formatter={(value) => `${value}%`}
@@ -416,7 +416,7 @@ export default function Home() {
                     <ResponsiveContainer width="100%" height={300}>
                       <BarChart data={getIndicatorChartData("nama_10_gdp")}>
                         <CartesianGrid strokeDasharray="3 3" />
-                        <XAxis dataKey="year" />
+                        <XAxis dataKey="year" angle={-45} textAnchor="end" height={80} />
                         <YAxis />
                         <Tooltip 
                           formatter={(value) => `€${(value as number).toLocaleString()}`}
