@@ -377,14 +377,14 @@ export default function Home() {
               <h3 className="text-xl font-bold text-gray-900 mt-8 mb-4">経済指標の推移</h3>
 
               {/* Unemployment Rate */}
-              {getIndicatorChartData("teilm020").length > 0 && (
+              {getIndicatorChartData("lfsa_urgan").length > 0 && (
                 <Card className="bg-white border-gray-200">
                   <CardHeader>
-                    <CardTitle className="text-lg">失業率（性別）の推移</CardTitle>
+                    <CardTitle className="text-lg">失業率の推移</CardTitle>
                   </CardHeader>
                   <CardContent>
                     <ResponsiveContainer width="100%" height={300}>
-                      <LineChart data={getIndicatorChartData("teilm020")}>
+                      <LineChart data={getIndicatorChartData("lfsa_urgan")}>
                         <CartesianGrid strokeDasharray="3 3" />
                         <XAxis dataKey="year" />
                         <YAxis />

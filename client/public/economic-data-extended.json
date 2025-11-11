@@ -1,0 +1,1063 @@
+{
+  "EU27_2020": {
+    "name": "EU27",
+    "data": [
+      {
+        "country": "EU27",
+        "countryCode": "EU27_2020",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2020,
+        "value": 100.0,
+        "unit": "EUR"
+      },
+      {
+        "country": "EU27",
+        "countryCode": "EU27_2020",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2021,
+        "value": 100.0,
+        "unit": "EUR"
+      },
+      {
+        "country": "EU27",
+        "countryCode": "EU27_2020",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2022,
+        "value": 100.0,
+        "unit": "EUR"
+      },
+      {
+        "country": "EU27",
+        "countryCode": "EU27_2020",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2023,
+        "value": 100.0,
+        "unit": "EUR"
+      },
+      {
+        "country": "EU27",
+        "countryCode": "EU27_2020",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2024,
+        "value": 100.0,
+        "unit": "EUR"
+      },
+      {
+        "country": "EU27",
+        "countryCode": "EU27_2020",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2025,
+        "value": 100.0,
+        "unit": "EUR"
+      },
+      {
+        "country": "EU27",
+        "countryCode": "EU27_2020",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2015,
+        "value": 100.0,
+        "unit": "EUR"
+      },
+      {
+        "country": "EU27",
+        "countryCode": "EU27_2020",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2016,
+        "value": 100.0,
+        "unit": "EUR"
+      },
+      {
+        "country": "EU27",
+        "countryCode": "EU27_2020",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2017,
+        "value": 100.0,
+        "unit": "EUR"
+      },
+      {
+        "country": "EU27",
+        "countryCode": "EU27_2020",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2018,
+        "value": 100.0,
+        "unit": "EUR"
+      },
+      {
+        "country": "EU27",
+        "countryCode": "EU27_2020",
+        "indicator": "失業率",
+        "indicatorCode": "lfsa_urgan",
+        "year": 2015,
+        "value": 4.9,
+        "unit": "%"
+      },
+      {
+        "country": "EU27",
+        "countryCode": "EU27_2020",
+        "indicator": "失業率",
+        "indicatorCode": "lfsa_urgan",
+        "year": 2016,
+        "value": 5.2,
+        "unit": "%"
+      },
+      {
+        "country": "EU27",
+        "countryCode": "EU27_2020",
+        "indicator": "失業率",
+        "indicatorCode": "lfsa_urgan",
+        "year": 2017,
+        "value": 4.6,
+        "unit": "%"
+      },
+      {
+        "country": "EU27",
+        "countryCode": "EU27_2020",
+        "indicator": "失業率",
+        "indicatorCode": "lfsa_urgan",
+        "year": 2018,
+        "value": 4.4,
+        "unit": "%"
+      },
+      {
+        "country": "EU27",
+        "countryCode": "EU27_2020",
+        "indicator": "失業率",
+        "indicatorCode": "lfsa_urgan",
+        "year": 2019,
+        "value": 4.2,
+        "unit": "%"
+      }
+    ]
+  },
+  "EA20": {
+    "name": "ユーロ圏20",
+    "data": [
+      {
+        "country": "ユーロ圏20",
+        "countryCode": "EA20",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2020,
+        "value": 87.0,
+        "unit": "EUR"
+      },
+      {
+        "country": "ユーロ圏20",
+        "countryCode": "EA20",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2021,
+        "value": 87.0,
+        "unit": "EUR"
+      },
+      {
+        "country": "ユーロ圏20",
+        "countryCode": "EA20",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2022,
+        "value": 86.6,
+        "unit": "EUR"
+      },
+      {
+        "country": "ユーロ圏20",
+        "countryCode": "EA20",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2023,
+        "value": 86.4,
+        "unit": "EUR"
+      },
+      {
+        "country": "ユーロ圏20",
+        "countryCode": "EA20",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2024,
+        "value": 86.2,
+        "unit": "EUR"
+      },
+      {
+        "country": "ユーロ圏20",
+        "countryCode": "EA20",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2025,
+        "value": 85.6,
+        "unit": "EUR"
+      },
+      {
+        "country": "ユーロ圏20",
+        "countryCode": "EA20",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2015,
+        "value": 85.7,
+        "unit": "EUR"
+      },
+      {
+        "country": "ユーロ圏20",
+        "countryCode": "EA20",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2016,
+        "value": 85.4,
+        "unit": "EUR"
+      },
+      {
+        "country": "ユーロ圏20",
+        "countryCode": "EA20",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2017,
+        "value": 85.3,
+        "unit": "EUR"
+      },
+      {
+        "country": "ユーロ圏20",
+        "countryCode": "EA20",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2018,
+        "value": 85.2,
+        "unit": "EUR"
+      },
+      {
+        "country": "ユーロ圏20",
+        "countryCode": "EA20",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2019,
+        "value": 84.7,
+        "unit": "EUR"
+      },
+      {
+        "country": "ユーロ圏20",
+        "countryCode": "EA20",
+        "indicator": "失業率",
+        "indicatorCode": "lfsa_urgan",
+        "year": 2015,
+        "value": 5.4,
+        "unit": "%"
+      },
+      {
+        "country": "ユーロ圏20",
+        "countryCode": "EA20",
+        "indicator": "失業率",
+        "indicatorCode": "lfsa_urgan",
+        "year": 2016,
+        "value": 5.7,
+        "unit": "%"
+      },
+      {
+        "country": "ユーロ圏20",
+        "countryCode": "EA20",
+        "indicator": "失業率",
+        "indicatorCode": "lfsa_urgan",
+        "year": 2017,
+        "value": 5.1,
+        "unit": "%"
+      },
+      {
+        "country": "ユーロ圏20",
+        "countryCode": "EA20",
+        "indicator": "失業率",
+        "indicatorCode": "lfsa_urgan",
+        "year": 2018,
+        "value": 4.8,
+        "unit": "%"
+      },
+      {
+        "country": "ユーロ圏20",
+        "countryCode": "EA20",
+        "indicator": "失業率",
+        "indicatorCode": "lfsa_urgan",
+        "year": 2019,
+        "value": 4.5,
+        "unit": "%"
+      }
+    ]
+  },
+  "DE": {
+    "name": "ドイツ",
+    "data": [
+      {
+        "country": "ドイツ",
+        "countryCode": "DE",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2020,
+        "value": 24.7,
+        "unit": "EUR"
+      },
+      {
+        "country": "ドイツ",
+        "countryCode": "DE",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2021,
+        "value": 24.8,
+        "unit": "EUR"
+      },
+      {
+        "country": "ドイツ",
+        "countryCode": "DE",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2022,
+        "value": 24.6,
+        "unit": "EUR"
+      },
+      {
+        "country": "ドイツ",
+        "countryCode": "DE",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2023,
+        "value": 24.6,
+        "unit": "EUR"
+      },
+      {
+        "country": "ドイツ",
+        "countryCode": "DE",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2024,
+        "value": 24.7,
+        "unit": "EUR"
+      },
+      {
+        "country": "ドイツ",
+        "countryCode": "DE",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2025,
+        "value": 24.8,
+        "unit": "EUR"
+      },
+      {
+        "country": "ドイツ",
+        "countryCode": "DE",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2015,
+        "value": 24.9,
+        "unit": "EUR"
+      },
+      {
+        "country": "ドイツ",
+        "countryCode": "DE",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2016,
+        "value": 24.4,
+        "unit": "EUR"
+      },
+      {
+        "country": "ドイツ",
+        "countryCode": "DE",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2017,
+        "value": 24.6,
+        "unit": "EUR"
+      },
+      {
+        "country": "ドイツ",
+        "countryCode": "DE",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2018,
+        "value": 24.4,
+        "unit": "EUR"
+      },
+      {
+        "country": "ドイツ",
+        "countryCode": "DE",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2019,
+        "value": 24.1,
+        "unit": "EUR"
+      },
+      {
+        "country": "ドイツ",
+        "countryCode": "DE",
+        "indicator": "失業率",
+        "indicatorCode": "lfsa_urgan",
+        "year": 2015,
+        "value": 2.8,
+        "unit": "%"
+      },
+      {
+        "country": "ドイツ",
+        "countryCode": "DE",
+        "indicator": "失業率",
+        "indicatorCode": "lfsa_urgan",
+        "year": 2016,
+        "value": 2.7,
+        "unit": "%"
+      },
+      {
+        "country": "ドイツ",
+        "countryCode": "DE",
+        "indicator": "失業率",
+        "indicatorCode": "lfsa_urgan",
+        "year": 2017,
+        "value": 2.4,
+        "unit": "%"
+      },
+      {
+        "country": "ドイツ",
+        "countryCode": "DE",
+        "indicator": "失業率",
+        "indicatorCode": "lfsa_urgan",
+        "year": 2018,
+        "value": 2.2,
+        "unit": "%"
+      },
+      {
+        "country": "ドイツ",
+        "countryCode": "DE",
+        "indicator": "失業率",
+        "indicatorCode": "lfsa_urgan",
+        "year": 2019,
+        "value": 2.3,
+        "unit": "%"
+      }
+    ]
+  },
+  "FR": {
+    "name": "フランス",
+    "data": [
+      {
+        "country": "フランス",
+        "countryCode": "FR",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2020,
+        "value": 17.6,
+        "unit": "EUR"
+      },
+      {
+        "country": "フランス",
+        "countryCode": "FR",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2021,
+        "value": 17.5,
+        "unit": "EUR"
+      },
+      {
+        "country": "フランス",
+        "countryCode": "FR",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2022,
+        "value": 17.3,
+        "unit": "EUR"
+      },
+      {
+        "country": "フランス",
+        "countryCode": "FR",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2023,
+        "value": 17.2,
+        "unit": "EUR"
+      },
+      {
+        "country": "フランス",
+        "countryCode": "FR",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2024,
+        "value": 17.2,
+        "unit": "EUR"
+      },
+      {
+        "country": "フランス",
+        "countryCode": "FR",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2025,
+        "value": 17.4,
+        "unit": "EUR"
+      },
+      {
+        "country": "フランス",
+        "countryCode": "FR",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2015,
+        "value": 17.7,
+        "unit": "EUR"
+      },
+      {
+        "country": "フランス",
+        "countryCode": "FR",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2016,
+        "value": 17.5,
+        "unit": "EUR"
+      },
+      {
+        "country": "フランス",
+        "countryCode": "FR",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2017,
+        "value": 16.9,
+        "unit": "EUR"
+      },
+      {
+        "country": "フランス",
+        "countryCode": "FR",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2018,
+        "value": 17.0,
+        "unit": "EUR"
+      },
+      {
+        "country": "フランス",
+        "countryCode": "FR",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2019,
+        "value": 16.8,
+        "unit": "EUR"
+      },
+      {
+        "country": "フランス",
+        "countryCode": "FR",
+        "indicator": "失業率",
+        "indicatorCode": "lfsa_urgan",
+        "year": 2020,
+        "value": 23.4,
+        "unit": "%"
+      },
+      {
+        "country": "フランス",
+        "countryCode": "FR",
+        "indicator": "失業率",
+        "indicatorCode": "lfsa_urgan",
+        "year": 2021,
+        "value": 25.4,
+        "unit": "%"
+      },
+      {
+        "country": "フランス",
+        "countryCode": "FR",
+        "indicator": "失業率",
+        "indicatorCode": "lfsa_urgan",
+        "year": 2022,
+        "value": 39.0,
+        "unit": "%"
+      },
+      {
+        "country": "フランス",
+        "countryCode": "FR",
+        "indicator": "失業率",
+        "indicatorCode": "lfsa_urgan",
+        "year": 2015,
+        "value": 5.5,
+        "unit": "%"
+      },
+      {
+        "country": "フランス",
+        "countryCode": "FR",
+        "indicator": "失業率",
+        "indicatorCode": "lfsa_urgan",
+        "year": 2016,
+        "value": 5.8,
+        "unit": "%"
+      },
+      {
+        "country": "フランス",
+        "countryCode": "FR",
+        "indicator": "失業率",
+        "indicatorCode": "lfsa_urgan",
+        "year": 2017,
+        "value": 5.2,
+        "unit": "%"
+      },
+      {
+        "country": "フランス",
+        "countryCode": "FR",
+        "indicator": "失業率",
+        "indicatorCode": "lfsa_urgan",
+        "year": 2018,
+        "value": 5.1,
+        "unit": "%"
+      },
+      {
+        "country": "フランス",
+        "countryCode": "FR",
+        "indicator": "失業率",
+        "indicatorCode": "lfsa_urgan",
+        "year": 2019,
+        "value": 4.9,
+        "unit": "%"
+      }
+    ]
+  },
+  "IT": {
+    "name": "イタリア",
+    "data": [
+      {
+        "country": "イタリア",
+        "countryCode": "IT",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2020,
+        "value": 15.4,
+        "unit": "EUR"
+      },
+      {
+        "country": "イタリア",
+        "countryCode": "IT",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2021,
+        "value": 15.2,
+        "unit": "EUR"
+      },
+      {
+        "country": "イタリア",
+        "countryCode": "IT",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2022,
+        "value": 15.0,
+        "unit": "EUR"
+      },
+      {
+        "country": "イタリア",
+        "countryCode": "IT",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2023,
+        "value": 14.8,
+        "unit": "EUR"
+      },
+      {
+        "country": "イタリア",
+        "countryCode": "IT",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2024,
+        "value": 14.5,
+        "unit": "EUR"
+      },
+      {
+        "country": "イタリア",
+        "countryCode": "IT",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2025,
+        "value": 14.0,
+        "unit": "EUR"
+      },
+      {
+        "country": "イタリア",
+        "countryCode": "IT",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2015,
+        "value": 13.7,
+        "unit": "EUR"
+      },
+      {
+        "country": "イタリア",
+        "countryCode": "IT",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2016,
+        "value": 13.7,
+        "unit": "EUR"
+      },
+      {
+        "country": "イタリア",
+        "countryCode": "IT",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2017,
+        "value": 13.7,
+        "unit": "EUR"
+      },
+      {
+        "country": "イタリア",
+        "countryCode": "IT",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2018,
+        "value": 13.5,
+        "unit": "EUR"
+      },
+      {
+        "country": "イタリア",
+        "countryCode": "IT",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2019,
+        "value": 13.3,
+        "unit": "EUR"
+      },
+      {
+        "country": "イタリア",
+        "countryCode": "IT",
+        "indicator": "失業率",
+        "indicatorCode": "lfsa_urgan",
+        "year": 2015,
+        "value": 5.3,
+        "unit": "%"
+      },
+      {
+        "country": "イタリア",
+        "countryCode": "IT",
+        "indicator": "失業率",
+        "indicatorCode": "lfsa_urgan",
+        "year": 2016,
+        "value": 5.8,
+        "unit": "%"
+      },
+      {
+        "country": "イタリア",
+        "countryCode": "IT",
+        "indicator": "失業率",
+        "indicatorCode": "lfsa_urgan",
+        "year": 2017,
+        "value": 5.1,
+        "unit": "%"
+      },
+      {
+        "country": "イタリア",
+        "countryCode": "IT",
+        "indicator": "失業率",
+        "indicatorCode": "lfsa_urgan",
+        "year": 2018,
+        "value": 4.8,
+        "unit": "%"
+      },
+      {
+        "country": "イタリア",
+        "countryCode": "IT",
+        "indicator": "失業率",
+        "indicatorCode": "lfsa_urgan",
+        "year": 2019,
+        "value": 4.1,
+        "unit": "%"
+      }
+    ]
+  },
+  "ES": {
+    "name": "スペイン",
+    "data": [
+      {
+        "country": "スペイン",
+        "countryCode": "ES",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2020,
+        "value": 9.6,
+        "unit": "EUR"
+      },
+      {
+        "country": "スペイン",
+        "countryCode": "ES",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2021,
+        "value": 9.6,
+        "unit": "EUR"
+      },
+      {
+        "country": "スペイン",
+        "countryCode": "ES",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2022,
+        "value": 9.7,
+        "unit": "EUR"
+      },
+      {
+        "country": "スペイン",
+        "countryCode": "ES",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2023,
+        "value": 9.7,
+        "unit": "EUR"
+      },
+      {
+        "country": "スペイン",
+        "countryCode": "ES",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2024,
+        "value": 9.6,
+        "unit": "EUR"
+      },
+      {
+        "country": "スペイン",
+        "countryCode": "ES",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2025,
+        "value": 9.1,
+        "unit": "EUR"
+      },
+      {
+        "country": "スペイン",
+        "countryCode": "ES",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2015,
+        "value": 9.0,
+        "unit": "EUR"
+      },
+      {
+        "country": "スペイン",
+        "countryCode": "ES",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2016,
+        "value": 9.2,
+        "unit": "EUR"
+      },
+      {
+        "country": "スペイン",
+        "countryCode": "ES",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2017,
+        "value": 9.1,
+        "unit": "EUR"
+      },
+      {
+        "country": "スペイン",
+        "countryCode": "ES",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2018,
+        "value": 9.1,
+        "unit": "EUR"
+      },
+      {
+        "country": "スペイン",
+        "countryCode": "ES",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2019,
+        "value": 9.3,
+        "unit": "EUR"
+      },
+      {
+        "country": "スペイン",
+        "countryCode": "ES",
+        "indicator": "失業率",
+        "indicatorCode": "lfsa_urgan",
+        "year": 2015,
+        "value": 12.2,
+        "unit": "%"
+      },
+      {
+        "country": "スペイン",
+        "countryCode": "ES",
+        "indicator": "失業率",
+        "indicatorCode": "lfsa_urgan",
+        "year": 2016,
+        "value": 12.7,
+        "unit": "%"
+      },
+      {
+        "country": "スペイン",
+        "countryCode": "ES",
+        "indicator": "失業率",
+        "indicatorCode": "lfsa_urgan",
+        "year": 2017,
+        "value": 11.7,
+        "unit": "%"
+      },
+      {
+        "country": "スペイン",
+        "countryCode": "ES",
+        "indicator": "失業率",
+        "indicatorCode": "lfsa_urgan",
+        "year": 2018,
+        "value": 10.7,
+        "unit": "%"
+      },
+      {
+        "country": "スペイン",
+        "countryCode": "ES",
+        "indicator": "失業率",
+        "indicatorCode": "lfsa_urgan",
+        "year": 2019,
+        "value": 9.9,
+        "unit": "%"
+      }
+    ]
+  },
+  "NL": {
+    "name": "オランダ",
+    "data": [
+      {
+        "country": "オランダ",
+        "countryCode": "NL",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2020,
+        "value": 4.8,
+        "unit": "EUR"
+      },
+      {
+        "country": "オランダ",
+        "countryCode": "NL",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2021,
+        "value": 4.8,
+        "unit": "EUR"
+      },
+      {
+        "country": "オランダ",
+        "countryCode": "NL",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2022,
+        "value": 4.8,
+        "unit": "EUR"
+      },
+      {
+        "country": "オランダ",
+        "countryCode": "NL",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2023,
+        "value": 4.8,
+        "unit": "EUR"
+      },
+      {
+        "country": "オランダ",
+        "countryCode": "NL",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2024,
+        "value": 4.9,
+        "unit": "EUR"
+      },
+      {
+        "country": "オランダ",
+        "countryCode": "NL",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2025,
+        "value": 5.0,
+        "unit": "EUR"
+      },
+      {
+        "country": "オランダ",
+        "countryCode": "NL",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2015,
+        "value": 5.0,
+        "unit": "EUR"
+      },
+      {
+        "country": "オランダ",
+        "countryCode": "NL",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2016,
+        "value": 5.0,
+        "unit": "EUR"
+      },
+      {
+        "country": "オランダ",
+        "countryCode": "NL",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2017,
+        "value": 5.1,
+        "unit": "EUR"
+      },
+      {
+        "country": "オランダ",
+        "countryCode": "NL",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2018,
+        "value": 5.2,
+        "unit": "EUR"
+      },
+      {
+        "country": "オランダ",
+        "countryCode": "NL",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2019,
+        "value": 5.2,
+        "unit": "EUR"
+      },
+      {
+        "country": "オランダ",
+        "countryCode": "NL",
+        "indicator": "失業率",
+        "indicatorCode": "lfsa_urgan",
+        "year": 2015,
+        "value": 2.6,
+        "unit": "%"
+      },
+      {
+        "country": "オランダ",
+        "countryCode": "NL",
+        "indicator": "失業率",
+        "indicatorCode": "lfsa_urgan",
+        "year": 2016,
+        "value": 3.1,
+        "unit": "%"
+      },
+      {
+        "country": "オランダ",
+        "countryCode": "NL",
+        "indicator": "失業率",
+        "indicatorCode": "lfsa_urgan",
+        "year": 2017,
+        "value": 2.7,
+        "unit": "%"
+      },
+      {
+        "country": "オランダ",
+        "countryCode": "NL",
+        "indicator": "失業率",
+        "indicatorCode": "lfsa_urgan",
+        "year": 2018,
+        "value": 2.2,
+        "unit": "%"
+      },
+      {
+        "country": "オランダ",
+        "countryCode": "NL",
+        "indicator": "失業率",
+        "indicatorCode": "lfsa_urgan",
+        "year": 2019,
+        "value": 2.2,
+        "unit": "%"
+      }
+    ]
+  }
+}

@@ -1,164 +1,290 @@
 {
   "byCountry": {
     "EU27_2020": {
-      "name": "EU27カ国",
+      "name": "EU27",
       "data": [
         {
-          "country": "EU27カ国",
+          "country": "EU27",
           "countryCode": "EU27_2020",
-          "indicator": "失業率（性別）",
-          "indicatorCode": "teilm020",
-          "year": 2025,
-          "value": 5.97,
-          "unit": "%"
+          "indicator": "GDP（現在価格）",
+          "indicatorCode": "nama_10_gdp",
+          "year": 2020,
+          "value": 100.0,
+          "unit": "EUR"
         },
         {
-          "country": "EU27カ国",
+          "country": "EU27",
+          "countryCode": "EU27_2020",
+          "indicator": "GDP（現在価格）",
+          "indicatorCode": "nama_10_gdp",
+          "year": 2021,
+          "value": 100.0,
+          "unit": "EUR"
+        },
+        {
+          "country": "EU27",
+          "countryCode": "EU27_2020",
+          "indicator": "GDP（現在価格）",
+          "indicatorCode": "nama_10_gdp",
+          "year": 2022,
+          "value": 100.0,
+          "unit": "EUR"
+        },
+        {
+          "country": "EU27",
+          "countryCode": "EU27_2020",
+          "indicator": "GDP（現在価格）",
+          "indicatorCode": "nama_10_gdp",
+          "year": 2023,
+          "value": 100.0,
+          "unit": "EUR"
+        },
+        {
+          "country": "EU27",
           "countryCode": "EU27_2020",
           "indicator": "GDP（現在価格）",
           "indicatorCode": "nama_10_gdp",
           "year": 2024,
-          "value": 2750387.25,
-          "unit": "ユーロ"
+          "value": 100.0,
+          "unit": "EUR"
         },
         {
-          "country": "EU27カ国",
+          "country": "EU27",
           "countryCode": "EU27_2020",
-          "indicator": "GDP成長率（実質）",
-          "indicatorCode": "tec00115",
-          "year": 2024,
-          "value": 0.95,
-          "unit": "%"
-        },
-        {
-          "country": "EU27カ国",
-          "countryCode": "EU27_2020",
-          "indicator": "インフレ率（HICP）",
-          "indicatorCode": "prc_hicp_manr",
+          "indicator": "GDP（現在価格）",
+          "indicatorCode": "nama_10_gdp",
           "year": 2025,
-          "value": 2.24,
+          "value": 100.0,
+          "unit": "EUR"
+        },
+        {
+          "country": "EU27",
+          "countryCode": "EU27_2020",
+          "indicator": "GDP（現在価格）",
+          "indicatorCode": "nama_10_gdp",
+          "year": 2015,
+          "value": 100.0,
+          "unit": "EUR"
+        },
+        {
+          "country": "EU27",
+          "countryCode": "EU27_2020",
+          "indicator": "GDP（現在価格）",
+          "indicatorCode": "nama_10_gdp",
+          "year": 2016,
+          "value": 100.0,
+          "unit": "EUR"
+        },
+        {
+          "country": "EU27",
+          "countryCode": "EU27_2020",
+          "indicator": "GDP（現在価格）",
+          "indicatorCode": "nama_10_gdp",
+          "year": 2017,
+          "value": 100.0,
+          "unit": "EUR"
+        },
+        {
+          "country": "EU27",
+          "countryCode": "EU27_2020",
+          "indicator": "GDP（現在価格）",
+          "indicatorCode": "nama_10_gdp",
+          "year": 2018,
+          "value": 100.0,
+          "unit": "EUR"
+        },
+        {
+          "country": "EU27",
+          "countryCode": "EU27_2020",
+          "indicator": "失業率",
+          "indicatorCode": "lfsa_urgan",
+          "year": 2015,
+          "value": 4.9,
           "unit": "%"
         },
         {
-          "country": "EU27カ国",
+          "country": "EU27",
           "countryCode": "EU27_2020",
-          "indicator": "一人当たりGDP",
-          "indicatorCode": "nama_10_pc",
-          "year": 2024,
-          "value": 9296.11,
-          "unit": "ユーロ"
-        },
-        {
-          "country": "EU27カ国",
-          "countryCode": "EU27_2020",
-          "indicator": "EU域内貿易",
-          "indicatorCode": "ext_lt_maineu",
-          "year": 2024,
-          "value": 17130.21,
-          "unit": "ユーロ"
-        },
-        {
-          "country": "EU27カ国",
-          "countryCode": "EU27_2020",
-          "indicator": "政府債務（GDP比）",
-          "indicatorCode": "gov_10dd_edpt1",
-          "year": 2024,
-          "value": 2546074.15,
+          "indicator": "失業率",
+          "indicatorCode": "lfsa_urgan",
+          "year": 2016,
+          "value": 5.2,
           "unit": "%"
         },
         {
-          "country": "EU27カ国",
+          "country": "EU27",
           "countryCode": "EU27_2020",
-          "indicator": "総人口",
-          "indicatorCode": "demo_pjan",
-          "year": 2024,
-          "value": 5873283.45,
-          "unit": "人"
+          "indicator": "失業率",
+          "indicatorCode": "lfsa_urgan",
+          "year": 2017,
+          "value": 4.6,
+          "unit": "%"
         },
         {
-          "country": "EU27カ国",
+          "country": "EU27",
           "countryCode": "EU27_2020",
-          "indicator": "人口増減率",
-          "indicatorCode": "demo_gind",
-          "year": 2025,
-          "value": 450380320,
+          "indicator": "失業率",
+          "indicatorCode": "lfsa_urgan",
+          "year": 2018,
+          "value": 4.4,
+          "unit": "%"
+        },
+        {
+          "country": "EU27",
+          "countryCode": "EU27_2020",
+          "indicator": "失業率",
+          "indicatorCode": "lfsa_urgan",
+          "year": 2019,
+          "value": 4.2,
           "unit": "%"
         }
       ]
     },
     "EA20": {
-      "name": "ユーロ圏20カ国",
+      "name": "ユーロ圏20",
       "data": [
         {
-          "country": "ユーロ圏20カ国",
+          "country": "ユーロ圏20",
           "countryCode": "EA20",
-          "indicator": "失業率（性別）",
-          "indicatorCode": "teilm020",
-          "year": 2025,
-          "value": 6.34,
-          "unit": "%"
+          "indicator": "GDP（現在価格）",
+          "indicatorCode": "nama_10_gdp",
+          "year": 2020,
+          "value": 87.0,
+          "unit": "EUR"
         },
         {
-          "country": "ユーロ圏20カ国",
+          "country": "ユーロ圏20",
+          "countryCode": "EA20",
+          "indicator": "GDP（現在価格）",
+          "indicatorCode": "nama_10_gdp",
+          "year": 2021,
+          "value": 87.0,
+          "unit": "EUR"
+        },
+        {
+          "country": "ユーロ圏20",
+          "countryCode": "EA20",
+          "indicator": "GDP（現在価格）",
+          "indicatorCode": "nama_10_gdp",
+          "year": 2022,
+          "value": 86.6,
+          "unit": "EUR"
+        },
+        {
+          "country": "ユーロ圏20",
+          "countryCode": "EA20",
+          "indicator": "GDP（現在価格）",
+          "indicatorCode": "nama_10_gdp",
+          "year": 2023,
+          "value": 86.4,
+          "unit": "EUR"
+        },
+        {
+          "country": "ユーロ圏20",
           "countryCode": "EA20",
           "indicator": "GDP（現在価格）",
           "indicatorCode": "nama_10_gdp",
           "year": 2024,
-          "value": 2131482.71,
-          "unit": "ユーロ"
+          "value": 86.2,
+          "unit": "EUR"
         },
         {
-          "country": "ユーロ圏20カ国",
+          "country": "ユーロ圏20",
           "countryCode": "EA20",
-          "indicator": "GDP成長率（実質）",
-          "indicatorCode": "tec00115",
-          "year": 2024,
-          "value": 0.7,
-          "unit": "%"
-        },
-        {
-          "country": "ユーロ圏20カ国",
-          "countryCode": "EA20",
-          "indicator": "インフレ率（HICP）",
-          "indicatorCode": "prc_hicp_manr",
+          "indicator": "GDP（現在価格）",
+          "indicatorCode": "nama_10_gdp",
           "year": 2025,
-          "value": 1.83,
+          "value": 85.6,
+          "unit": "EUR"
+        },
+        {
+          "country": "ユーロ圏20",
+          "countryCode": "EA20",
+          "indicator": "GDP（現在価格）",
+          "indicatorCode": "nama_10_gdp",
+          "year": 2015,
+          "value": 85.7,
+          "unit": "EUR"
+        },
+        {
+          "country": "ユーロ圏20",
+          "countryCode": "EA20",
+          "indicator": "GDP（現在価格）",
+          "indicatorCode": "nama_10_gdp",
+          "year": 2016,
+          "value": 85.4,
+          "unit": "EUR"
+        },
+        {
+          "country": "ユーロ圏20",
+          "countryCode": "EA20",
+          "indicator": "GDP（現在価格）",
+          "indicatorCode": "nama_10_gdp",
+          "year": 2017,
+          "value": 85.3,
+          "unit": "EUR"
+        },
+        {
+          "country": "ユーロ圏20",
+          "countryCode": "EA20",
+          "indicator": "GDP（現在価格）",
+          "indicatorCode": "nama_10_gdp",
+          "year": 2018,
+          "value": 85.2,
+          "unit": "EUR"
+        },
+        {
+          "country": "ユーロ圏20",
+          "countryCode": "EA20",
+          "indicator": "GDP（現在価格）",
+          "indicatorCode": "nama_10_gdp",
+          "year": 2019,
+          "value": 84.7,
+          "unit": "EUR"
+        },
+        {
+          "country": "ユーロ圏20",
+          "countryCode": "EA20",
+          "indicator": "失業率",
+          "indicatorCode": "lfsa_urgan",
+          "year": 2015,
+          "value": 5.4,
           "unit": "%"
         },
         {
-          "country": "ユーロ圏20カ国",
+          "country": "ユーロ圏20",
           "countryCode": "EA20",
-          "indicator": "一人当たりGDP",
-          "indicatorCode": "nama_10_pc",
-          "year": 2024,
-          "value": 8418.6,
-          "unit": "ユーロ"
-        },
-        {
-          "country": "ユーロ圏20カ国",
-          "countryCode": "EA20",
-          "indicator": "政府債務（GDP比）",
-          "indicatorCode": "gov_10dd_edpt1",
-          "year": 2024,
-          "value": 2259918.85,
+          "indicator": "失業率",
+          "indicatorCode": "lfsa_urgan",
+          "year": 2016,
+          "value": 5.7,
           "unit": "%"
         },
         {
-          "country": "ユーロ圏20カ国",
+          "country": "ユーロ圏20",
           "countryCode": "EA20",
-          "indicator": "総人口",
-          "indicatorCode": "demo_pjan",
-          "year": 2024,
-          "value": 4577438.16,
-          "unit": "人"
+          "indicator": "失業率",
+          "indicatorCode": "lfsa_urgan",
+          "year": 2017,
+          "value": 5.1,
+          "unit": "%"
         },
         {
-          "country": "ユーロ圏20カ国",
+          "country": "ユーロ圏20",
           "countryCode": "EA20",
-          "indicator": "人口増減率",
-          "indicatorCode": "demo_gind",
-          "year": 2025,
-          "value": 351379988,
+          "indicator": "失業率",
+          "indicatorCode": "lfsa_urgan",
+          "year": 2018,
+          "value": 4.8,
+          "unit": "%"
+        },
+        {
+          "country": "ユーロ圏20",
+          "countryCode": "EA20",
+          "indicator": "失業率",
+          "indicatorCode": "lfsa_urgan",
+          "year": 2019,
+          "value": 4.5,
           "unit": "%"
         }
       ]
@@ -169,11 +295,38 @@
         {
           "country": "ドイツ",
           "countryCode": "DE",
-          "indicator": "失業率（性別）",
-          "indicatorCode": "teilm020",
-          "year": 2025,
-          "value": 3.71,
-          "unit": "%"
+          "indicator": "GDP（現在価格）",
+          "indicatorCode": "nama_10_gdp",
+          "year": 2020,
+          "value": 24.7,
+          "unit": "EUR"
+        },
+        {
+          "country": "ドイツ",
+          "countryCode": "DE",
+          "indicator": "GDP（現在価格）",
+          "indicatorCode": "nama_10_gdp",
+          "year": 2021,
+          "value": 24.8,
+          "unit": "EUR"
+        },
+        {
+          "country": "ドイツ",
+          "countryCode": "DE",
+          "indicator": "GDP（現在価格）",
+          "indicatorCode": "nama_10_gdp",
+          "year": 2022,
+          "value": 24.6,
+          "unit": "EUR"
+        },
+        {
+          "country": "ドイツ",
+          "countryCode": "DE",
+          "indicator": "GDP（現在価格）",
+          "indicatorCode": "nama_10_gdp",
+          "year": 2023,
+          "value": 24.6,
+          "unit": "EUR"
         },
         {
           "country": "ドイツ",
@@ -181,61 +334,106 @@
           "indicator": "GDP（現在価格）",
           "indicatorCode": "nama_10_gdp",
           "year": 2024,
-          "value": 572667.19,
-          "unit": "ユーロ"
+          "value": 24.7,
+          "unit": "EUR"
         },
         {
           "country": "ドイツ",
           "countryCode": "DE",
-          "indicator": "GDP成長率（実質）",
-          "indicatorCode": "tec00115",
-          "year": 2024,
-          "value": -0.65,
-          "unit": "%"
-        },
-        {
-          "country": "ドイツ",
-          "countryCode": "DE",
-          "indicator": "インフレ率（HICP）",
-          "indicatorCode": "prc_hicp_manr",
+          "indicator": "GDP（現在価格）",
+          "indicatorCode": "nama_10_gdp",
           "year": 2025,
-          "value": 1.84,
+          "value": 24.8,
+          "unit": "EUR"
+        },
+        {
+          "country": "ドイツ",
+          "countryCode": "DE",
+          "indicator": "GDP（現在価格）",
+          "indicatorCode": "nama_10_gdp",
+          "year": 2015,
+          "value": 24.9,
+          "unit": "EUR"
+        },
+        {
+          "country": "ドイツ",
+          "countryCode": "DE",
+          "indicator": "GDP（現在価格）",
+          "indicatorCode": "nama_10_gdp",
+          "year": 2016,
+          "value": 24.4,
+          "unit": "EUR"
+        },
+        {
+          "country": "ドイツ",
+          "countryCode": "DE",
+          "indicator": "GDP（現在価格）",
+          "indicatorCode": "nama_10_gdp",
+          "year": 2017,
+          "value": 24.6,
+          "unit": "EUR"
+        },
+        {
+          "country": "ドイツ",
+          "countryCode": "DE",
+          "indicator": "GDP（現在価格）",
+          "indicatorCode": "nama_10_gdp",
+          "year": 2018,
+          "value": 24.4,
+          "unit": "EUR"
+        },
+        {
+          "country": "ドイツ",
+          "countryCode": "DE",
+          "indicator": "GDP（現在価格）",
+          "indicatorCode": "nama_10_gdp",
+          "year": 2019,
+          "value": 24.1,
+          "unit": "EUR"
+        },
+        {
+          "country": "ドイツ",
+          "countryCode": "DE",
+          "indicator": "失業率",
+          "indicatorCode": "lfsa_urgan",
+          "year": 2015,
+          "value": 2.8,
           "unit": "%"
         },
         {
           "country": "ドイツ",
           "countryCode": "DE",
-          "indicator": "一人当たりGDP",
-          "indicatorCode": "nama_10_pc",
-          "year": 2024,
-          "value": 9854.93,
-          "unit": "ユーロ"
-        },
-        {
-          "country": "ドイツ",
-          "countryCode": "DE",
-          "indicator": "政府債務（GDP比）",
-          "indicatorCode": "gov_10dd_edpt1",
-          "year": 2024,
-          "value": 528555.1,
+          "indicator": "失業率",
+          "indicatorCode": "lfsa_urgan",
+          "year": 2016,
+          "value": 2.7,
           "unit": "%"
         },
         {
           "country": "ドイツ",
           "countryCode": "DE",
-          "indicator": "総人口",
-          "indicatorCode": "demo_pjan",
-          "year": 2024,
-          "value": 1080337.15,
-          "unit": "人"
+          "indicator": "失業率",
+          "indicatorCode": "lfsa_urgan",
+          "year": 2017,
+          "value": 2.4,
+          "unit": "%"
         },
         {
           "country": "ドイツ",
           "countryCode": "DE",
-          "indicator": "人口増減率",
-          "indicatorCode": "demo_gind",
-          "year": 2025,
-          "value": 83577140,
+          "indicator": "失業率",
+          "indicatorCode": "lfsa_urgan",
+          "year": 2018,
+          "value": 2.2,
+          "unit": "%"
+        },
+        {
+          "country": "ドイツ",
+          "countryCode": "DE",
+          "indicator": "失業率",
+          "indicatorCode": "lfsa_urgan",
+          "year": 2019,
+          "value": 2.3,
           "unit": "%"
         }
       ]
@@ -246,11 +444,38 @@
         {
           "country": "フランス",
           "countryCode": "FR",
-          "indicator": "失業率（性別）",
-          "indicatorCode": "teilm020",
-          "year": 2025,
-          "value": 7.5,
-          "unit": "%"
+          "indicator": "GDP（現在価格）",
+          "indicatorCode": "nama_10_gdp",
+          "year": 2020,
+          "value": 17.6,
+          "unit": "EUR"
+        },
+        {
+          "country": "フランス",
+          "countryCode": "FR",
+          "indicator": "GDP（現在価格）",
+          "indicatorCode": "nama_10_gdp",
+          "year": 2021,
+          "value": 17.5,
+          "unit": "EUR"
+        },
+        {
+          "country": "フランス",
+          "countryCode": "FR",
+          "indicator": "GDP（現在価格）",
+          "indicatorCode": "nama_10_gdp",
+          "year": 2022,
+          "value": 17.3,
+          "unit": "EUR"
+        },
+        {
+          "country": "フランス",
+          "countryCode": "FR",
+          "indicator": "GDP（現在価格）",
+          "indicatorCode": "nama_10_gdp",
+          "year": 2023,
+          "value": 17.2,
+          "unit": "EUR"
         },
         {
           "country": "フランス",
@@ -258,61 +483,133 @@
           "indicator": "GDP（現在価格）",
           "indicatorCode": "nama_10_gdp",
           "year": 2024,
-          "value": 396262.34,
-          "unit": "ユーロ"
+          "value": 17.2,
+          "unit": "EUR"
         },
         {
           "country": "フランス",
           "countryCode": "FR",
-          "indicator": "GDP成長率（実質）",
-          "indicatorCode": "tec00115",
-          "year": 2024,
-          "value": 1.05,
-          "unit": "%"
-        },
-        {
-          "country": "フランス",
-          "countryCode": "FR",
-          "indicator": "インフレ率（HICP）",
-          "indicatorCode": "prc_hicp_manr",
+          "indicator": "GDP（現在価格）",
+          "indicatorCode": "nama_10_gdp",
           "year": 2025,
-          "value": 0.78,
+          "value": 17.4,
+          "unit": "EUR"
+        },
+        {
+          "country": "フランス",
+          "countryCode": "FR",
+          "indicator": "GDP（現在価格）",
+          "indicatorCode": "nama_10_gdp",
+          "year": 2015,
+          "value": 17.7,
+          "unit": "EUR"
+        },
+        {
+          "country": "フランス",
+          "countryCode": "FR",
+          "indicator": "GDP（現在価格）",
+          "indicatorCode": "nama_10_gdp",
+          "year": 2016,
+          "value": 17.5,
+          "unit": "EUR"
+        },
+        {
+          "country": "フランス",
+          "countryCode": "FR",
+          "indicator": "GDP（現在価格）",
+          "indicatorCode": "nama_10_gdp",
+          "year": 2017,
+          "value": 16.9,
+          "unit": "EUR"
+        },
+        {
+          "country": "フランス",
+          "countryCode": "FR",
+          "indicator": "GDP（現在価格）",
+          "indicatorCode": "nama_10_gdp",
+          "year": 2018,
+          "value": 17.0,
+          "unit": "EUR"
+        },
+        {
+          "country": "フランス",
+          "countryCode": "FR",
+          "indicator": "GDP（現在価格）",
+          "indicatorCode": "nama_10_gdp",
+          "year": 2019,
+          "value": 16.8,
+          "unit": "EUR"
+        },
+        {
+          "country": "フランス",
+          "countryCode": "FR",
+          "indicator": "失業率",
+          "indicatorCode": "lfsa_urgan",
+          "year": 2020,
+          "value": 23.4,
           "unit": "%"
         },
         {
           "country": "フランス",
           "countryCode": "FR",
-          "indicator": "一人当たりGDP",
-          "indicatorCode": "nama_10_pc",
-          "year": 2024,
-          "value": 8771.91,
-          "unit": "ユーロ"
-        },
-        {
-          "country": "フランス",
-          "countryCode": "FR",
-          "indicator": "政府債務（GDP比）",
-          "indicatorCode": "gov_10dd_edpt1",
-          "year": 2024,
-          "value": 556893.4,
+          "indicator": "失業率",
+          "indicatorCode": "lfsa_urgan",
+          "year": 2021,
+          "value": 25.4,
           "unit": "%"
         },
         {
           "country": "フランス",
           "countryCode": "FR",
-          "indicator": "総人口",
-          "indicatorCode": "demo_pjan",
-          "year": 2024,
-          "value": 886308.89,
-          "unit": "人"
+          "indicator": "失業率",
+          "indicatorCode": "lfsa_urgan",
+          "year": 2022,
+          "value": 39.0,
+          "unit": "%"
         },
         {
           "country": "フランス",
           "countryCode": "FR",
-          "indicator": "人口増減率",
-          "indicatorCode": "demo_gind",
-          "year": 2025,
-          "value": 68635943,
+          "indicator": "失業率",
+          "indicatorCode": "lfsa_urgan",
+          "year": 2015,
+          "value": 5.5,
+          "unit": "%"
+        },
+        {
+          "country": "フランス",
+          "countryCode": "FR",
+          "indicator": "失業率",
+          "indicatorCode": "lfsa_urgan",
+          "year": 2016,
+          "value": 5.8,
+          "unit": "%"
+        },
+        {
+          "country": "フランス",
+          "countryCode": "FR",
+          "indicator": "失業率",
+          "indicatorCode": "lfsa_urgan",
+          "year": 2017,
+          "value": 5.2,
+          "unit": "%"
+        },
+        {
+          "country": "フランス",
+          "countryCode": "FR",
+          "indicator": "失業率",
+          "indicatorCode": "lfsa_urgan",
+          "year": 2018,
+          "value": 5.1,
+          "unit": "%"
+        },
+        {
+          "country": "フランス",
+          "countryCode": "FR",
+          "indicator": "失業率",
+          "indicatorCode": "lfsa_urgan",
+          "year": 2019,
+          "value": 4.9,
           "unit": "%"
         }
       ]
@@ -323,11 +620,38 @@
         {
           "country": "イタリア",
           "countryCode": "IT",
-          "indicator": "失業率（性別）",
-          "indicatorCode": "teilm020",
-          "year": 2025,
-          "value": 6.27,
-          "unit": "%"
+          "indicator": "GDP（現在価格）",
+          "indicatorCode": "nama_10_gdp",
+          "year": 2020,
+          "value": 15.4,
+          "unit": "EUR"
+        },
+        {
+          "country": "イタリア",
+          "countryCode": "IT",
+          "indicator": "GDP（現在価格）",
+          "indicatorCode": "nama_10_gdp",
+          "year": 2021,
+          "value": 15.2,
+          "unit": "EUR"
+        },
+        {
+          "country": "イタリア",
+          "countryCode": "IT",
+          "indicator": "GDP（現在価格）",
+          "indicatorCode": "nama_10_gdp",
+          "year": 2022,
+          "value": 15.0,
+          "unit": "EUR"
+        },
+        {
+          "country": "イタリア",
+          "countryCode": "IT",
+          "indicator": "GDP（現在価格）",
+          "indicatorCode": "nama_10_gdp",
+          "year": 2023,
+          "value": 14.8,
+          "unit": "EUR"
         },
         {
           "country": "イタリア",
@@ -335,61 +659,106 @@
           "indicator": "GDP（現在価格）",
           "indicatorCode": "nama_10_gdp",
           "year": 2024,
-          "value": 290277.75,
-          "unit": "ユーロ"
+          "value": 14.5,
+          "unit": "EUR"
         },
         {
           "country": "イタリア",
           "countryCode": "IT",
-          "indicator": "GDP成長率（実質）",
-          "indicatorCode": "tec00115",
-          "year": 2024,
-          "value": 0.7,
-          "unit": "%"
-        },
-        {
-          "country": "イタリア",
-          "countryCode": "IT",
-          "indicator": "インフレ率（HICP）",
-          "indicatorCode": "prc_hicp_manr",
+          "indicator": "GDP（現在価格）",
+          "indicatorCode": "nama_10_gdp",
           "year": 2025,
-          "value": 1.79,
+          "value": 14.0,
+          "unit": "EUR"
+        },
+        {
+          "country": "イタリア",
+          "countryCode": "IT",
+          "indicator": "GDP（現在価格）",
+          "indicatorCode": "nama_10_gdp",
+          "year": 2015,
+          "value": 13.7,
+          "unit": "EUR"
+        },
+        {
+          "country": "イタリア",
+          "countryCode": "IT",
+          "indicator": "GDP（現在価格）",
+          "indicatorCode": "nama_10_gdp",
+          "year": 2016,
+          "value": 13.7,
+          "unit": "EUR"
+        },
+        {
+          "country": "イタリア",
+          "countryCode": "IT",
+          "indicator": "GDP（現在価格）",
+          "indicatorCode": "nama_10_gdp",
+          "year": 2017,
+          "value": 13.7,
+          "unit": "EUR"
+        },
+        {
+          "country": "イタリア",
+          "countryCode": "IT",
+          "indicator": "GDP（現在価格）",
+          "indicatorCode": "nama_10_gdp",
+          "year": 2018,
+          "value": 13.5,
+          "unit": "EUR"
+        },
+        {
+          "country": "イタリア",
+          "countryCode": "IT",
+          "indicator": "GDP（現在価格）",
+          "indicatorCode": "nama_10_gdp",
+          "year": 2019,
+          "value": 13.3,
+          "unit": "EUR"
+        },
+        {
+          "country": "イタリア",
+          "countryCode": "IT",
+          "indicator": "失業率",
+          "indicatorCode": "lfsa_urgan",
+          "year": 2015,
+          "value": 5.3,
           "unit": "%"
         },
         {
           "country": "イタリア",
           "countryCode": "IT",
-          "indicator": "一人当たりGDP",
-          "indicatorCode": "nama_10_pc",
-          "year": 2024,
-          "value": 7580.03,
-          "unit": "ユーロ"
-        },
-        {
-          "country": "イタリア",
-          "countryCode": "IT",
-          "indicator": "政府債務（GDP比）",
-          "indicatorCode": "gov_10dd_edpt1",
-          "year": 2024,
-          "value": 473364.27,
+          "indicator": "失業率",
+          "indicatorCode": "lfsa_urgan",
+          "year": 2016,
+          "value": 5.8,
           "unit": "%"
         },
         {
           "country": "イタリア",
           "countryCode": "IT",
-          "indicator": "総人口",
-          "indicatorCode": "demo_pjan",
-          "year": 2024,
-          "value": 763381.62,
-          "unit": "人"
+          "indicator": "失業率",
+          "indicatorCode": "lfsa_urgan",
+          "year": 2017,
+          "value": 5.1,
+          "unit": "%"
         },
         {
           "country": "イタリア",
           "countryCode": "IT",
-          "indicator": "人口増減率",
-          "indicatorCode": "demo_gind",
-          "year": 2025,
-          "value": 58934177,
+          "indicator": "失業率",
+          "indicatorCode": "lfsa_urgan",
+          "year": 2018,
+          "value": 4.8,
+          "unit": "%"
+        },
+        {
+          "country": "イタリア",
+          "countryCode": "IT",
+          "indicator": "失業率",
+          "indicatorCode": "lfsa_urgan",
+          "year": 2019,
+          "value": 4.1,
           "unit": "%"
         }
       ]
@@ -400,11 +769,38 @@
         {
           "country": "スペイン",
           "countryCode": "ES",
-          "indicator": "失業率（性別）",
-          "indicatorCode": "teilm020",
-          "year": 2025,
-          "value": 10.69,
-          "unit": "%"
+          "indicator": "GDP（現在価格）",
+          "indicatorCode": "nama_10_gdp",
+          "year": 2020,
+          "value": 9.6,
+          "unit": "EUR"
+        },
+        {
+          "country": "スペイン",
+          "countryCode": "ES",
+          "indicator": "GDP（現在価格）",
+          "indicatorCode": "nama_10_gdp",
+          "year": 2021,
+          "value": 9.6,
+          "unit": "EUR"
+        },
+        {
+          "country": "スペイン",
+          "countryCode": "ES",
+          "indicator": "GDP（現在価格）",
+          "indicatorCode": "nama_10_gdp",
+          "year": 2022,
+          "value": 9.7,
+          "unit": "EUR"
+        },
+        {
+          "country": "スペイン",
+          "countryCode": "ES",
+          "indicator": "GDP（現在価格）",
+          "indicatorCode": "nama_10_gdp",
+          "year": 2023,
+          "value": 9.7,
+          "unit": "EUR"
         },
         {
           "country": "スペイン",
@@ -412,61 +808,106 @@
           "indicator": "GDP（現在価格）",
           "indicatorCode": "nama_10_gdp",
           "year": 2024,
-          "value": 211544.9,
-          "unit": "ユーロ"
+          "value": 9.6,
+          "unit": "EUR"
         },
         {
           "country": "スペイン",
           "countryCode": "ES",
-          "indicator": "GDP成長率（実質）",
-          "indicatorCode": "tec00115",
-          "year": 2024,
-          "value": 2.95,
-          "unit": "%"
-        },
-        {
-          "country": "スペイン",
-          "countryCode": "ES",
-          "indicator": "インフレ率（HICP）",
-          "indicatorCode": "prc_hicp_manr",
+          "indicator": "GDP（現在価格）",
+          "indicatorCode": "nama_10_gdp",
           "year": 2025,
-          "value": 2.17,
+          "value": 9.1,
+          "unit": "EUR"
+        },
+        {
+          "country": "スペイン",
+          "countryCode": "ES",
+          "indicator": "GDP（現在価格）",
+          "indicatorCode": "nama_10_gdp",
+          "year": 2015,
+          "value": 9.0,
+          "unit": "EUR"
+        },
+        {
+          "country": "スペイン",
+          "countryCode": "ES",
+          "indicator": "GDP（現在価格）",
+          "indicatorCode": "nama_10_gdp",
+          "year": 2016,
+          "value": 9.2,
+          "unit": "EUR"
+        },
+        {
+          "country": "スペイン",
+          "countryCode": "ES",
+          "indicator": "GDP（現在価格）",
+          "indicatorCode": "nama_10_gdp",
+          "year": 2017,
+          "value": 9.1,
+          "unit": "EUR"
+        },
+        {
+          "country": "スペイン",
+          "countryCode": "ES",
+          "indicator": "GDP（現在価格）",
+          "indicatorCode": "nama_10_gdp",
+          "year": 2018,
+          "value": 9.1,
+          "unit": "EUR"
+        },
+        {
+          "country": "スペイン",
+          "countryCode": "ES",
+          "indicator": "GDP（現在価格）",
+          "indicatorCode": "nama_10_gdp",
+          "year": 2019,
+          "value": 9.3,
+          "unit": "EUR"
+        },
+        {
+          "country": "スペイン",
+          "countryCode": "ES",
+          "indicator": "失業率",
+          "indicatorCode": "lfsa_urgan",
+          "year": 2015,
+          "value": 12.2,
           "unit": "%"
         },
         {
           "country": "スペイン",
           "countryCode": "ES",
-          "indicator": "一人当たりGDP",
-          "indicatorCode": "nama_10_pc",
-          "year": 2024,
-          "value": 6632.69,
-          "unit": "ユーロ"
-        },
-        {
-          "country": "スペイン",
-          "countryCode": "ES",
-          "indicator": "政府債務（GDP比）",
-          "indicatorCode": "gov_10dd_edpt1",
-          "year": 2024,
-          "value": 268733.2,
+          "indicator": "失業率",
+          "indicatorCode": "lfsa_urgan",
+          "year": 2016,
+          "value": 12.7,
           "unit": "%"
         },
         {
           "country": "スペイン",
           "countryCode": "ES",
-          "indicator": "総人口",
-          "indicatorCode": "demo_pjan",
-          "year": 2024,
-          "value": 629381.17,
-          "unit": "人"
+          "indicator": "失業率",
+          "indicatorCode": "lfsa_urgan",
+          "year": 2017,
+          "value": 11.7,
+          "unit": "%"
         },
         {
           "country": "スペイン",
           "countryCode": "ES",
-          "indicator": "人口増減率",
-          "indicatorCode": "demo_gind",
-          "year": 2025,
-          "value": 49077984,
+          "indicator": "失業率",
+          "indicatorCode": "lfsa_urgan",
+          "year": 2018,
+          "value": 10.7,
+          "unit": "%"
+        },
+        {
+          "country": "スペイン",
+          "countryCode": "ES",
+          "indicator": "失業率",
+          "indicatorCode": "lfsa_urgan",
+          "year": 2019,
+          "value": 9.9,
           "unit": "%"
         }
       ]
@@ -477,2169 +918,1185 @@
         {
           "country": "オランダ",
           "countryCode": "NL",
-          "indicator": "失業率（性別）",
-          "indicatorCode": "teilm020",
-          "year": 2025,
-          "value": 3.84,
-          "unit": "%"
-        },
-        {
-          "country": "オランダ",
-          "countryCode": "NL",
           "indicator": "GDP（現在価格）",
           "indicatorCode": "nama_10_gdp",
-          "year": 2024,
-          "value": 166754.65,
-          "unit": "ユーロ"
-        },
-        {
-          "country": "オランダ",
-          "countryCode": "NL",
-          "indicator": "GDP成長率（実質）",
-          "indicatorCode": "tec00115",
-          "year": 2024,
-          "value": 0.75,
-          "unit": "%"
-        },
-        {
-          "country": "オランダ",
-          "countryCode": "NL",
-          "indicator": "インフレ率（HICP）",
-          "indicatorCode": "prc_hicp_manr",
-          "year": 2025,
-          "value": 2.85,
-          "unit": "%"
-        },
-        {
-          "country": "オランダ",
-          "countryCode": "NL",
-          "indicator": "一人当たりGDP",
-          "indicatorCode": "nama_10_pc",
-          "year": 2024,
-          "value": 10935.5,
-          "unit": "ユーロ"
-        },
-        {
-          "country": "オランダ",
-          "countryCode": "NL",
-          "indicator": "政府債務（GDP比）",
-          "indicatorCode": "gov_10dd_edpt1",
-          "year": 2024,
-          "value": 126359.76,
-          "unit": "%"
-        },
-        {
-          "country": "オランダ",
-          "countryCode": "NL",
-          "indicator": "総人口",
-          "indicatorCode": "demo_pjan",
-          "year": 2024,
-          "value": 232271.09,
-          "unit": "人"
-        },
-        {
-          "country": "オランダ",
-          "countryCode": "NL",
-          "indicator": "人口増減率",
-          "indicatorCode": "demo_gind",
-          "year": 2025,
-          "value": 18044027,
-          "unit": "%"
-        }
-      ]
-    },
-    "PL": {
-      "name": "ポーランド",
-      "data": [
-        {
-          "country": "ポーランド",
-          "countryCode": "PL",
-          "indicator": "失業率（性別）",
-          "indicatorCode": "teilm020",
-          "year": 2025,
-          "value": 3.11,
-          "unit": "%"
-        },
-        {
-          "country": "ポーランド",
-          "countryCode": "PL",
-          "indicator": "GDP（現在価格）",
-          "indicatorCode": "nama_10_gdp",
-          "year": 2024,
-          "value": 282244.75,
-          "unit": "ユーロ"
-        },
-        {
-          "country": "ポーランド",
-          "countryCode": "PL",
-          "indicator": "GDP成長率（実質）",
-          "indicatorCode": "tec00115",
-          "year": 2024,
-          "value": 3.15,
-          "unit": "%"
-        },
-        {
-          "country": "ポーランド",
-          "countryCode": "PL",
-          "indicator": "インフレ率（HICP）",
-          "indicatorCode": "prc_hicp_manr",
-          "year": 2025,
-          "value": 2.92,
-          "unit": "%"
-        },
-        {
-          "country": "ポーランド",
-          "countryCode": "PL",
-          "indicator": "一人当たりGDP",
-          "indicatorCode": "nama_10_pc",
-          "year": 2024,
-          "value": 7446.68,
-          "unit": "ユーロ"
-        },
-        {
-          "country": "ポーランド",
-          "countryCode": "PL",
-          "indicator": "政府債務（GDP比）",
-          "indicatorCode": "gov_10dd_edpt1",
-          "year": 2024,
-          "value": 270694.16,
-          "unit": "%"
-        },
-        {
-          "country": "ポーランド",
-          "countryCode": "PL",
-          "indicator": "総人口",
-          "indicatorCode": "demo_pjan",
-          "year": 2024,
-          "value": 474057.86,
-          "unit": "人"
-        },
-        {
-          "country": "ポーランド",
-          "countryCode": "PL",
-          "indicator": "人口増減率",
-          "indicatorCode": "demo_gind",
-          "year": 2025,
-          "value": 36497495,
-          "unit": "%"
-        }
-      ]
-    },
-    "BE": {
-      "name": "ベルギー",
-      "data": [
-        {
-          "country": "ベルギー",
-          "countryCode": "BE",
-          "indicator": "失業率（性別）",
-          "indicatorCode": "teilm020",
-          "year": 2025,
-          "value": 5.99,
-          "unit": "%"
-        },
-        {
-          "country": "ベルギー",
-          "countryCode": "BE",
-          "indicator": "GDP（現在価格）",
-          "indicatorCode": "nama_10_gdp",
-          "year": 2024,
-          "value": 97772,
-          "unit": "ユーロ"
-        },
-        {
-          "country": "ベルギー",
-          "countryCode": "BE",
-          "indicator": "GDP成長率（実質）",
-          "indicatorCode": "tec00115",
-          "year": 2024,
-          "value": 0.8,
-          "unit": "%"
-        },
-        {
-          "country": "ベルギー",
-          "countryCode": "BE",
-          "indicator": "インフレ率（HICP）",
-          "indicatorCode": "prc_hicp_manr",
-          "year": 2025,
-          "value": 2.16,
-          "unit": "%"
-        },
-        {
-          "country": "ベルギー",
-          "countryCode": "BE",
-          "indicator": "一人当たりGDP",
-          "indicatorCode": "nama_10_pc",
-          "year": 2024,
-          "value": 9997.18,
-          "unit": "ユーロ"
-        },
-        {
-          "country": "ベルギー",
-          "countryCode": "BE",
-          "indicator": "政府債務（GDP比）",
-          "indicatorCode": "gov_10dd_edpt1",
-          "year": 2024,
-          "value": 103220.78,
-          "unit": "%"
-        },
-        {
-          "country": "ベルギー",
-          "countryCode": "BE",
-          "indicator": "総人口",
-          "indicatorCode": "demo_pjan",
-          "year": 2024,
-          "value": 152972.12,
-          "unit": "人"
-        },
-        {
-          "country": "ベルギー",
-          "countryCode": "BE",
-          "indicator": "人口増減率",
-          "indicatorCode": "demo_gind",
-          "year": 2025,
-          "value": 11900123,
-          "unit": "%"
-        }
-      ]
-    },
-    "AT": {
-      "name": "オーストリア",
-      "data": [
-        {
-          "country": "オーストリア",
-          "countryCode": "AT",
-          "indicator": "失業率（性別）",
-          "indicatorCode": "teilm020",
-          "year": 2025,
-          "value": 5.57,
-          "unit": "%"
-        },
-        {
-          "country": "オーストリア",
-          "countryCode": "AT",
-          "indicator": "GDP（現在価格）",
-          "indicatorCode": "nama_10_gdp",
-          "year": 2024,
-          "value": 68336.86,
-          "unit": "ユーロ"
-        },
-        {
-          "country": "オーストリア",
-          "countryCode": "AT",
-          "indicator": "GDP成長率（実質）",
-          "indicatorCode": "tec00115",
-          "year": 2024,
-          "value": -0.95,
-          "unit": "%"
-        },
-        {
-          "country": "オーストリア",
-          "countryCode": "AT",
-          "indicator": "インフレ率（HICP）",
-          "indicatorCode": "prc_hicp_manr",
-          "year": 2025,
-          "value": 2.63,
-          "unit": "%"
-        },
-        {
-          "country": "オーストリア",
-          "countryCode": "AT",
-          "indicator": "一人当たりGDP",
-          "indicatorCode": "nama_10_pc",
-          "year": 2024,
-          "value": 9967.23,
-          "unit": "ユーロ"
-        },
-        {
-          "country": "オーストリア",
-          "countryCode": "AT",
-          "indicator": "政府債務（GDP比）",
-          "indicatorCode": "gov_10dd_edpt1",
-          "year": 2024,
-          "value": 69400.36,
-          "unit": "%"
-        },
-        {
-          "country": "オーストリア",
-          "countryCode": "AT",
-          "indicator": "総人口",
-          "indicatorCode": "demo_pjan",
-          "year": 2024,
-          "value": 118559.87,
-          "unit": "人"
-        },
-        {
-          "country": "オーストリア",
-          "countryCode": "AT",
-          "indicator": "人口増減率",
-          "indicatorCode": "demo_gind",
-          "year": 2025,
-          "value": 9197213,
-          "unit": "%"
-        }
-      ]
-    },
-    "SE": {
-      "name": "スウェーデン",
-      "data": [
-        {
-          "country": "スウェーデン",
-          "countryCode": "SE",
-          "indicator": "失業率（性別）",
-          "indicatorCode": "teilm020",
-          "year": 2025,
-          "value": 8.76,
-          "unit": "%"
-        },
-        {
-          "country": "スウェーデン",
-          "countryCode": "SE",
-          "indicator": "GDP（現在価格）",
-          "indicatorCode": "nama_10_gdp",
-          "year": 2024,
-          "value": 448817.02,
-          "unit": "ユーロ"
-        },
-        {
-          "country": "スウェーデン",
-          "countryCode": "SE",
-          "indicator": "GDP成長率（実質）",
-          "indicatorCode": "tec00115",
-          "year": 2024,
-          "value": 0.65,
-          "unit": "%"
-        },
-        {
-          "country": "スウェーデン",
-          "countryCode": "SE",
-          "indicator": "インフレ率（HICP）",
-          "indicatorCode": "prc_hicp_manr",
-          "year": 2025,
-          "value": 2.19,
-          "unit": "%"
-        },
-        {
-          "country": "スウェーデン",
-          "countryCode": "SE",
-          "indicator": "一人当たりGDP",
-          "indicatorCode": "nama_10_pc",
-          "year": 2024,
-          "value": 29524.04,
-          "unit": "ユーロ"
-        },
-        {
-          "country": "スウェーデン",
-          "countryCode": "SE",
-          "indicator": "政府債務（GDP比）",
-          "indicatorCode": "gov_10dd_edpt1",
-          "year": 2024,
-          "value": 345790.03,
-          "unit": "%"
-        },
-        {
-          "country": "スウェーデン",
-          "countryCode": "SE",
-          "indicator": "総人口",
-          "indicatorCode": "demo_pjan",
-          "year": 2024,
-          "value": 136591.68,
-          "unit": "人"
-        },
-        {
-          "country": "スウェーデン",
-          "countryCode": "SE",
-          "indicator": "人口増減率",
-          "indicatorCode": "demo_gind",
-          "year": 2025,
-          "value": 10587710,
-          "unit": "%"
-        }
-      ]
-    },
-    "DK": {
-      "name": "デンマーク",
-      "data": [
-        {
-          "country": "デンマーク",
-          "countryCode": "DK",
-          "indicator": "失業率（性別）",
-          "indicatorCode": "teilm020",
-          "year": 2025,
-          "value": 6.35,
-          "unit": "%"
-        },
-        {
-          "country": "デンマーク",
-          "countryCode": "DK",
-          "indicator": "GDP（現在価格）",
-          "indicatorCode": "nama_10_gdp",
-          "year": 2024,
-          "value": 228383.68,
-          "unit": "ユーロ"
-        },
-        {
-          "country": "デンマーク",
-          "countryCode": "DK",
-          "indicator": "GDP成長率（実質）",
-          "indicatorCode": "tec00115",
-          "year": 2024,
-          "value": 3.25,
-          "unit": "%"
-        },
-        {
-          "country": "デンマーク",
-          "countryCode": "DK",
-          "indicator": "インフレ率（HICP）",
-          "indicatorCode": "prc_hicp_manr",
-          "year": 2025,
-          "value": 1.62,
-          "unit": "%"
-        },
-        {
-          "country": "デンマーク",
-          "countryCode": "DK",
-          "indicator": "一人当たりGDP",
-          "indicatorCode": "nama_10_pc",
-          "year": 2024,
-          "value": 25670.29,
-          "unit": "ユーロ"
-        },
-        {
-          "country": "デンマーク",
-          "countryCode": "DK",
-          "indicator": "政府債務（GDP比）",
-          "indicatorCode": "gov_10dd_edpt1",
-          "year": 2024,
-          "value": 163899.28,
-          "unit": "%"
-        },
-        {
-          "country": "デンマーク",
-          "countryCode": "DK",
-          "indicator": "総人口",
-          "indicatorCode": "demo_pjan",
-          "year": 2024,
-          "value": 77168.27,
-          "unit": "人"
-        },
-        {
-          "country": "デンマーク",
-          "countryCode": "DK",
-          "indicator": "人口増減率",
-          "indicatorCode": "demo_gind",
-          "year": 2025,
-          "value": 5992734,
-          "unit": "%"
-        }
-      ]
-    },
-    "FI": {
-      "name": "フィンランド",
-      "data": [
-        {
-          "country": "フィンランド",
-          "countryCode": "FI",
-          "indicator": "失業率（性別）",
-          "indicatorCode": "teilm020",
-          "year": 2025,
-          "value": 9.46,
-          "unit": "%"
-        },
-        {
-          "country": "フィンランド",
-          "countryCode": "FI",
-          "indicator": "GDP（現在価格）",
-          "indicatorCode": "nama_10_gdp",
-          "year": 2024,
-          "value": 37738.06,
-          "unit": "ユーロ"
-        },
-        {
-          "country": "フィンランド",
-          "countryCode": "FI",
-          "indicator": "GDP成長率（実質）",
-          "indicatorCode": "tec00115",
-          "year": 2024,
-          "value": 0,
-          "unit": "%"
-        },
-        {
-          "country": "フィンランド",
-          "countryCode": "FI",
-          "indicator": "インフレ率（HICP）",
-          "indicatorCode": "prc_hicp_manr",
-          "year": 2025,
-          "value": 2.24,
-          "unit": "%"
-        },
-        {
-          "country": "フィンランド",
-          "countryCode": "FI",
-          "indicator": "一人当たりGDP",
-          "indicatorCode": "nama_10_pc",
-          "year": 2024,
-          "value": 9700.81,
-          "unit": "ユーロ"
-        },
-        {
-          "country": "フィンランド",
-          "countryCode": "FI",
-          "indicator": "政府債務（GDP比）",
-          "indicatorCode": "gov_10dd_edpt1",
-          "year": 2024,
-          "value": 42689.59,
-          "unit": "%"
-        },
-        {
-          "country": "フィンランド",
-          "countryCode": "FI",
-          "indicator": "総人口",
-          "indicatorCode": "demo_pjan",
-          "year": 2024,
-          "value": 72541.76,
-          "unit": "人"
-        },
-        {
-          "country": "フィンランド",
-          "countryCode": "FI",
-          "indicator": "人口増減率",
-          "indicatorCode": "demo_gind",
-          "year": 2025,
-          "value": 5635971,
-          "unit": "%"
-        }
-      ]
-    },
-    "IE": {
-      "name": "アイルランド",
-      "data": [
-        {
-          "country": "アイルランド",
-          "countryCode": "IE",
-          "indicator": "失業率（性別）",
-          "indicatorCode": "teilm020",
-          "year": 2025,
-          "value": 4.59,
-          "unit": "%"
-        },
-        {
-          "country": "アイルランド",
-          "countryCode": "IE",
-          "indicator": "GDP（現在価格）",
-          "indicatorCode": "nama_10_gdp",
-          "year": 2024,
-          "value": 92443.83,
-          "unit": "ユーロ"
-        },
-        {
-          "country": "アイルランド",
-          "countryCode": "IE",
-          "indicator": "GDP成長率（実質）",
-          "indicatorCode": "tec00115",
-          "year": 2024,
-          "value": 1.75,
-          "unit": "%"
-        },
-        {
-          "country": "アイルランド",
-          "countryCode": "IE",
-          "indicator": "インフレ率（HICP）",
-          "indicatorCode": "prc_hicp_manr",
-          "year": 2025,
-          "value": 1.07,
-          "unit": "%"
-        },
-        {
-          "country": "アイルランド",
-          "countryCode": "IE",
-          "indicator": "一人当たりGDP",
-          "indicatorCode": "nama_10_pc",
-          "year": 2024,
-          "value": 12816.34,
-          "unit": "ユーロ"
-        },
-        {
-          "country": "アイルランド",
-          "countryCode": "IE",
-          "indicator": "政府債務（GDP比）",
-          "indicatorCode": "gov_10dd_edpt1",
-          "year": 2024,
-          "value": 55557.52,
-          "unit": "%"
-        },
-        {
-          "country": "アイルランド",
-          "countryCode": "IE",
-          "indicator": "総人口",
-          "indicatorCode": "demo_pjan",
-          "year": 2024,
-          "value": 69277.42,
-          "unit": "人"
-        },
-        {
-          "country": "アイルランド",
-          "countryCode": "IE",
-          "indicator": "人口増減率",
-          "indicatorCode": "demo_gind",
-          "year": 2025,
-          "value": 5439898,
-          "unit": "%"
-        }
-      ]
-    },
-    "PT": {
-      "name": "ポルトガル",
-      "data": [
-        {
-          "country": "ポルトガル",
-          "countryCode": "PT",
-          "indicator": "失業率（性別）",
-          "indicatorCode": "teilm020",
-          "year": 2025,
-          "value": 6.14,
-          "unit": "%"
-        },
-        {
-          "country": "ポルトガル",
-          "countryCode": "PT",
-          "indicator": "GDP（現在価格）",
-          "indicatorCode": "nama_10_gdp",
-          "year": 2024,
-          "value": 40992.65,
-          "unit": "ユーロ"
-        },
-        {
-          "country": "ポルトガル",
-          "countryCode": "PT",
-          "indicator": "GDP成長率（実質）",
-          "indicatorCode": "tec00115",
-          "year": 2024,
-          "value": 1.55,
-          "unit": "%"
-        },
-        {
-          "country": "ポルトガル",
-          "countryCode": "PT",
-          "indicator": "インフレ率（HICP）",
-          "indicatorCode": "prc_hicp_manr",
-          "year": 2025,
-          "value": 1.52,
-          "unit": "%"
-        },
-        {
-          "country": "ポルトガル",
-          "countryCode": "PT",
-          "indicator": "一人当たりGDP",
-          "indicatorCode": "nama_10_pc",
-          "year": 2024,
-          "value": 5706.75,
-          "unit": "ユーロ"
-        },
-        {
-          "country": "ポルトガル",
-          "countryCode": "PT",
-          "indicator": "政府債務（GDP比）",
-          "indicatorCode": "gov_10dd_edpt1",
-          "year": 2024,
-          "value": 48145.89,
-          "unit": "%"
-        },
-        {
-          "country": "ポルトガル",
-          "countryCode": "PT",
-          "indicator": "総人口",
-          "indicatorCode": "demo_pjan",
-          "year": 2024,
-          "value": 137731.08,
-          "unit": "人"
-        },
-        {
-          "country": "ポルトガル",
-          "countryCode": "PT",
-          "indicator": "人口増減率",
-          "indicatorCode": "demo_gind",
-          "year": 2025,
-          "value": 10749635,
-          "unit": "%"
-        }
-      ]
-    },
-    "CZ": {
-      "name": "チェコ",
-      "data": [
-        {
-          "country": "チェコ",
-          "countryCode": "CZ",
-          "indicator": "失業率（性別）",
-          "indicatorCode": "teilm020",
-          "year": 2025,
-          "value": 2.83,
-          "unit": "%"
-        },
-        {
-          "country": "チェコ",
-          "countryCode": "CZ",
-          "indicator": "GDP（現在価格）",
-          "indicatorCode": "nama_10_gdp",
-          "year": 2024,
-          "value": 541284.59,
-          "unit": "ユーロ"
-        },
-        {
-          "country": "チェコ",
-          "countryCode": "CZ",
-          "indicator": "GDP成長率（実質）",
-          "indicatorCode": "tec00115",
-          "year": 2024,
-          "value": 1.15,
-          "unit": "%"
-        },
-        {
-          "country": "チェコ",
-          "countryCode": "CZ",
-          "indicator": "インフレ率（HICP）",
-          "indicatorCode": "prc_hicp_manr",
-          "year": 2025,
-          "value": 2.91,
-          "unit": "%"
-        },
-        {
-          "country": "チェコ",
-          "countryCode": "CZ",
-          "indicator": "一人当たりGDP",
-          "indicatorCode": "nama_10_pc",
-          "year": 2024,
-          "value": 28947.9,
-          "unit": "ユーロ"
-        },
-        {
-          "country": "チェコ",
-          "countryCode": "CZ",
-          "indicator": "政府債務（GDP比）",
-          "indicatorCode": "gov_10dd_edpt1",
-          "year": 2024,
-          "value": 454217.69,
-          "unit": "%"
-        },
-        {
-          "country": "チェコ",
-          "countryCode": "CZ",
-          "indicator": "総人口",
-          "indicatorCode": "demo_pjan",
-          "year": 2024,
-          "value": 141107.51,
-          "unit": "人"
-        },
-        {
-          "country": "チェコ",
-          "countryCode": "CZ",
-          "indicator": "人口増減率",
-          "indicatorCode": "demo_gind",
-          "year": 2025,
-          "value": 10909500,
-          "unit": "%"
-        }
-      ]
-    },
-    "HU": {
-      "name": "ハンガリー",
-      "data": [
-        {
-          "country": "ハンガリー",
-          "countryCode": "HU",
-          "indicator": "失業率（性別）",
-          "indicatorCode": "teilm020",
-          "year": 2025,
-          "value": 4.32,
-          "unit": "%"
-        },
-        {
-          "country": "ハンガリー",
-          "countryCode": "HU",
-          "indicator": "GDP（現在価格）",
-          "indicatorCode": "nama_10_gdp",
-          "year": 2024,
-          "value": 4893365.75,
-          "unit": "ユーロ"
-        },
-        {
-          "country": "ハンガリー",
-          "countryCode": "HU",
-          "indicator": "GDP成長率（実質）",
-          "indicatorCode": "tec00115",
-          "year": 2024,
-          "value": 0.75,
-          "unit": "%"
-        },
-        {
-          "country": "ハンガリー",
-          "countryCode": "HU",
-          "indicator": "インフレ率（HICP）",
-          "indicatorCode": "prc_hicp_manr",
-          "year": 2025,
+          "year": 2020,
           "value": 4.8,
-          "unit": "%"
-        },
-        {
-          "country": "ハンガリー",
-          "countryCode": "HU",
-          "indicator": "一人当たりGDP",
-          "indicatorCode": "nama_10_pc",
-          "year": 2024,
-          "value": 301547.69,
-          "unit": "ユーロ"
-        },
-        {
-          "country": "ハンガリー",
-          "countryCode": "HU",
-          "indicator": "政府債務（GDP比）",
-          "indicatorCode": "gov_10dd_edpt1",
-          "year": 2024,
-          "value": 5829176.57,
-          "unit": "%"
-        },
-        {
-          "country": "ハンガリー",
-          "countryCode": "HU",
-          "indicator": "総人口",
-          "indicatorCode": "demo_pjan",
-          "year": 2024,
-          "value": 124072.84,
-          "unit": "人"
-        },
-        {
-          "country": "ハンガリー",
-          "countryCode": "HU",
-          "indicator": "人口増減率",
-          "indicatorCode": "demo_gind",
-          "year": 2025,
-          "value": 9539502,
-          "unit": "%"
-        }
-      ]
-    },
-    "GR": {
-      "name": "ギリシャ",
-      "data": []
-    }
-  },
-  "byIndicator": {
-    "teilm020": {
-      "name": "失業率（性別）",
-      "data": [
-        {
-          "country": "EU27カ国",
-          "countryCode": "EU27_2020",
-          "indicator": "失業率（性別）",
-          "indicatorCode": "teilm020",
-          "year": 2025,
-          "value": 5.97,
-          "unit": "%"
-        },
-        {
-          "country": "ユーロ圏20カ国",
-          "countryCode": "EA20",
-          "indicator": "失業率（性別）",
-          "indicatorCode": "teilm020",
-          "year": 2025,
-          "value": 6.34,
-          "unit": "%"
-        },
-        {
-          "country": "ドイツ",
-          "countryCode": "DE",
-          "indicator": "失業率（性別）",
-          "indicatorCode": "teilm020",
-          "year": 2025,
-          "value": 3.71,
-          "unit": "%"
-        },
-        {
-          "country": "フランス",
-          "countryCode": "FR",
-          "indicator": "失業率（性別）",
-          "indicatorCode": "teilm020",
-          "year": 2025,
-          "value": 7.5,
-          "unit": "%"
-        },
-        {
-          "country": "イタリア",
-          "countryCode": "IT",
-          "indicator": "失業率（性別）",
-          "indicatorCode": "teilm020",
-          "year": 2025,
-          "value": 6.27,
-          "unit": "%"
-        },
-        {
-          "country": "スペイン",
-          "countryCode": "ES",
-          "indicator": "失業率（性別）",
-          "indicatorCode": "teilm020",
-          "year": 2025,
-          "value": 10.69,
-          "unit": "%"
-        },
-        {
-          "country": "オランダ",
-          "countryCode": "NL",
-          "indicator": "失業率（性別）",
-          "indicatorCode": "teilm020",
-          "year": 2025,
-          "value": 3.84,
-          "unit": "%"
-        },
-        {
-          "country": "ポーランド",
-          "countryCode": "PL",
-          "indicator": "失業率（性別）",
-          "indicatorCode": "teilm020",
-          "year": 2025,
-          "value": 3.11,
-          "unit": "%"
-        },
-        {
-          "country": "ベルギー",
-          "countryCode": "BE",
-          "indicator": "失業率（性別）",
-          "indicatorCode": "teilm020",
-          "year": 2025,
-          "value": 5.99,
-          "unit": "%"
-        },
-        {
-          "country": "オーストリア",
-          "countryCode": "AT",
-          "indicator": "失業率（性別）",
-          "indicatorCode": "teilm020",
-          "year": 2025,
-          "value": 5.57,
-          "unit": "%"
-        },
-        {
-          "country": "スウェーデン",
-          "countryCode": "SE",
-          "indicator": "失業率（性別）",
-          "indicatorCode": "teilm020",
-          "year": 2025,
-          "value": 8.76,
-          "unit": "%"
-        },
-        {
-          "country": "デンマーク",
-          "countryCode": "DK",
-          "indicator": "失業率（性別）",
-          "indicatorCode": "teilm020",
-          "year": 2025,
-          "value": 6.35,
-          "unit": "%"
-        },
-        {
-          "country": "フィンランド",
-          "countryCode": "FI",
-          "indicator": "失業率（性別）",
-          "indicatorCode": "teilm020",
-          "year": 2025,
-          "value": 9.46,
-          "unit": "%"
-        },
-        {
-          "country": "アイルランド",
-          "countryCode": "IE",
-          "indicator": "失業率（性別）",
-          "indicatorCode": "teilm020",
-          "year": 2025,
-          "value": 4.59,
-          "unit": "%"
-        },
-        {
-          "country": "ポルトガル",
-          "countryCode": "PT",
-          "indicator": "失業率（性別）",
-          "indicatorCode": "teilm020",
-          "year": 2025,
-          "value": 6.14,
-          "unit": "%"
-        },
-        {
-          "country": "チェコ",
-          "countryCode": "CZ",
-          "indicator": "失業率（性別）",
-          "indicatorCode": "teilm020",
-          "year": 2025,
-          "value": 2.83,
-          "unit": "%"
-        },
-        {
-          "country": "ハンガリー",
-          "countryCode": "HU",
-          "indicator": "失業率（性別）",
-          "indicatorCode": "teilm020",
-          "year": 2025,
-          "value": 4.32,
-          "unit": "%"
-        }
-      ]
-    },
-    "nama_10_gdp": {
-      "name": "GDP（現在価格）",
-      "data": [
-        {
-          "country": "EU27カ国",
-          "countryCode": "EU27_2020",
-          "indicator": "GDP（現在価格）",
-          "indicatorCode": "nama_10_gdp",
-          "year": 2024,
-          "value": 2750387.25,
-          "unit": "ユーロ"
-        },
-        {
-          "country": "ユーロ圏20カ国",
-          "countryCode": "EA20",
-          "indicator": "GDP（現在価格）",
-          "indicatorCode": "nama_10_gdp",
-          "year": 2024,
-          "value": 2131482.71,
-          "unit": "ユーロ"
-        },
-        {
-          "country": "ドイツ",
-          "countryCode": "DE",
-          "indicator": "GDP（現在価格）",
-          "indicatorCode": "nama_10_gdp",
-          "year": 2024,
-          "value": 572667.19,
-          "unit": "ユーロ"
-        },
-        {
-          "country": "フランス",
-          "countryCode": "FR",
-          "indicator": "GDP（現在価格）",
-          "indicatorCode": "nama_10_gdp",
-          "year": 2024,
-          "value": 396262.34,
-          "unit": "ユーロ"
-        },
-        {
-          "country": "イタリア",
-          "countryCode": "IT",
-          "indicator": "GDP（現在価格）",
-          "indicatorCode": "nama_10_gdp",
-          "year": 2024,
-          "value": 290277.75,
-          "unit": "ユーロ"
-        },
-        {
-          "country": "スペイン",
-          "countryCode": "ES",
-          "indicator": "GDP（現在価格）",
-          "indicatorCode": "nama_10_gdp",
-          "year": 2024,
-          "value": 211544.9,
-          "unit": "ユーロ"
+          "unit": "EUR"
         },
         {
           "country": "オランダ",
           "countryCode": "NL",
           "indicator": "GDP（現在価格）",
           "indicatorCode": "nama_10_gdp",
-          "year": 2024,
-          "value": 166754.65,
-          "unit": "ユーロ"
-        },
-        {
-          "country": "ポーランド",
-          "countryCode": "PL",
-          "indicator": "GDP（現在価格）",
-          "indicatorCode": "nama_10_gdp",
-          "year": 2024,
-          "value": 282244.75,
-          "unit": "ユーロ"
-        },
-        {
-          "country": "ベルギー",
-          "countryCode": "BE",
-          "indicator": "GDP（現在価格）",
-          "indicatorCode": "nama_10_gdp",
-          "year": 2024,
-          "value": 97772,
-          "unit": "ユーロ"
-        },
-        {
-          "country": "オーストリア",
-          "countryCode": "AT",
-          "indicator": "GDP（現在価格）",
-          "indicatorCode": "nama_10_gdp",
-          "year": 2024,
-          "value": 68336.86,
-          "unit": "ユーロ"
-        },
-        {
-          "country": "スウェーデン",
-          "countryCode": "SE",
-          "indicator": "GDP（現在価格）",
-          "indicatorCode": "nama_10_gdp",
-          "year": 2024,
-          "value": 448817.02,
-          "unit": "ユーロ"
-        },
-        {
-          "country": "デンマーク",
-          "countryCode": "DK",
-          "indicator": "GDP（現在価格）",
-          "indicatorCode": "nama_10_gdp",
-          "year": 2024,
-          "value": 228383.68,
-          "unit": "ユーロ"
-        },
-        {
-          "country": "フィンランド",
-          "countryCode": "FI",
-          "indicator": "GDP（現在価格）",
-          "indicatorCode": "nama_10_gdp",
-          "year": 2024,
-          "value": 37738.06,
-          "unit": "ユーロ"
-        },
-        {
-          "country": "アイルランド",
-          "countryCode": "IE",
-          "indicator": "GDP（現在価格）",
-          "indicatorCode": "nama_10_gdp",
-          "year": 2024,
-          "value": 92443.83,
-          "unit": "ユーロ"
-        },
-        {
-          "country": "ポルトガル",
-          "countryCode": "PT",
-          "indicator": "GDP（現在価格）",
-          "indicatorCode": "nama_10_gdp",
-          "year": 2024,
-          "value": 40992.65,
-          "unit": "ユーロ"
-        },
-        {
-          "country": "チェコ",
-          "countryCode": "CZ",
-          "indicator": "GDP（現在価格）",
-          "indicatorCode": "nama_10_gdp",
-          "year": 2024,
-          "value": 541284.59,
-          "unit": "ユーロ"
-        },
-        {
-          "country": "ハンガリー",
-          "countryCode": "HU",
-          "indicator": "GDP（現在価格）",
-          "indicatorCode": "nama_10_gdp",
-          "year": 2024,
-          "value": 4893365.75,
-          "unit": "ユーロ"
-        }
-      ]
-    },
-    "tec00115": {
-      "name": "GDP成長率（実質）",
-      "data": [
-        {
-          "country": "EU27カ国",
-          "countryCode": "EU27_2020",
-          "indicator": "GDP成長率（実質）",
-          "indicatorCode": "tec00115",
-          "year": 2024,
-          "value": 0.95,
-          "unit": "%"
-        },
-        {
-          "country": "ユーロ圏20カ国",
-          "countryCode": "EA20",
-          "indicator": "GDP成長率（実質）",
-          "indicatorCode": "tec00115",
-          "year": 2024,
-          "value": 0.7,
-          "unit": "%"
-        },
-        {
-          "country": "ドイツ",
-          "countryCode": "DE",
-          "indicator": "GDP成長率（実質）",
-          "indicatorCode": "tec00115",
-          "year": 2024,
-          "value": -0.65,
-          "unit": "%"
-        },
-        {
-          "country": "フランス",
-          "countryCode": "FR",
-          "indicator": "GDP成長率（実質）",
-          "indicatorCode": "tec00115",
-          "year": 2024,
-          "value": 1.05,
-          "unit": "%"
-        },
-        {
-          "country": "イタリア",
-          "countryCode": "IT",
-          "indicator": "GDP成長率（実質）",
-          "indicatorCode": "tec00115",
-          "year": 2024,
-          "value": 0.7,
-          "unit": "%"
-        },
-        {
-          "country": "スペイン",
-          "countryCode": "ES",
-          "indicator": "GDP成長率（実質）",
-          "indicatorCode": "tec00115",
-          "year": 2024,
-          "value": 2.95,
-          "unit": "%"
-        },
-        {
-          "country": "オランダ",
-          "countryCode": "NL",
-          "indicator": "GDP成長率（実質）",
-          "indicatorCode": "tec00115",
-          "year": 2024,
-          "value": 0.75,
-          "unit": "%"
-        },
-        {
-          "country": "ポーランド",
-          "countryCode": "PL",
-          "indicator": "GDP成長率（実質）",
-          "indicatorCode": "tec00115",
-          "year": 2024,
-          "value": 3.15,
-          "unit": "%"
-        },
-        {
-          "country": "ベルギー",
-          "countryCode": "BE",
-          "indicator": "GDP成長率（実質）",
-          "indicatorCode": "tec00115",
-          "year": 2024,
-          "value": 0.8,
-          "unit": "%"
-        },
-        {
-          "country": "オーストリア",
-          "countryCode": "AT",
-          "indicator": "GDP成長率（実質）",
-          "indicatorCode": "tec00115",
-          "year": 2024,
-          "value": -0.95,
-          "unit": "%"
-        },
-        {
-          "country": "スウェーデン",
-          "countryCode": "SE",
-          "indicator": "GDP成長率（実質）",
-          "indicatorCode": "tec00115",
-          "year": 2024,
-          "value": 0.65,
-          "unit": "%"
-        },
-        {
-          "country": "デンマーク",
-          "countryCode": "DK",
-          "indicator": "GDP成長率（実質）",
-          "indicatorCode": "tec00115",
-          "year": 2024,
-          "value": 3.25,
-          "unit": "%"
-        },
-        {
-          "country": "フィンランド",
-          "countryCode": "FI",
-          "indicator": "GDP成長率（実質）",
-          "indicatorCode": "tec00115",
-          "year": 2024,
-          "value": 0,
-          "unit": "%"
-        },
-        {
-          "country": "アイルランド",
-          "countryCode": "IE",
-          "indicator": "GDP成長率（実質）",
-          "indicatorCode": "tec00115",
-          "year": 2024,
-          "value": 1.75,
-          "unit": "%"
-        },
-        {
-          "country": "ポルトガル",
-          "countryCode": "PT",
-          "indicator": "GDP成長率（実質）",
-          "indicatorCode": "tec00115",
-          "year": 2024,
-          "value": 1.55,
-          "unit": "%"
-        },
-        {
-          "country": "チェコ",
-          "countryCode": "CZ",
-          "indicator": "GDP成長率（実質）",
-          "indicatorCode": "tec00115",
-          "year": 2024,
-          "value": 1.15,
-          "unit": "%"
-        },
-        {
-          "country": "ハンガリー",
-          "countryCode": "HU",
-          "indicator": "GDP成長率（実質）",
-          "indicatorCode": "tec00115",
-          "year": 2024,
-          "value": 0.75,
-          "unit": "%"
-        }
-      ]
-    },
-    "prc_hicp_manr": {
-      "name": "インフレ率（HICP）",
-      "data": [
-        {
-          "country": "EU27カ国",
-          "countryCode": "EU27_2020",
-          "indicator": "インフレ率（HICP）",
-          "indicatorCode": "prc_hicp_manr",
-          "year": 2025,
-          "value": 2.24,
-          "unit": "%"
-        },
-        {
-          "country": "ユーロ圏20カ国",
-          "countryCode": "EA20",
-          "indicator": "インフレ率（HICP）",
-          "indicatorCode": "prc_hicp_manr",
-          "year": 2025,
-          "value": 1.83,
-          "unit": "%"
-        },
-        {
-          "country": "ドイツ",
-          "countryCode": "DE",
-          "indicator": "インフレ率（HICP）",
-          "indicatorCode": "prc_hicp_manr",
-          "year": 2025,
-          "value": 1.84,
-          "unit": "%"
-        },
-        {
-          "country": "フランス",
-          "countryCode": "FR",
-          "indicator": "インフレ率（HICP）",
-          "indicatorCode": "prc_hicp_manr",
-          "year": 2025,
-          "value": 0.78,
-          "unit": "%"
-        },
-        {
-          "country": "イタリア",
-          "countryCode": "IT",
-          "indicator": "インフレ率（HICP）",
-          "indicatorCode": "prc_hicp_manr",
-          "year": 2025,
-          "value": 1.79,
-          "unit": "%"
-        },
-        {
-          "country": "スペイン",
-          "countryCode": "ES",
-          "indicator": "インフレ率（HICP）",
-          "indicatorCode": "prc_hicp_manr",
-          "year": 2025,
-          "value": 2.17,
-          "unit": "%"
-        },
-        {
-          "country": "オランダ",
-          "countryCode": "NL",
-          "indicator": "インフレ率（HICP）",
-          "indicatorCode": "prc_hicp_manr",
-          "year": 2025,
-          "value": 2.85,
-          "unit": "%"
-        },
-        {
-          "country": "ポーランド",
-          "countryCode": "PL",
-          "indicator": "インフレ率（HICP）",
-          "indicatorCode": "prc_hicp_manr",
-          "year": 2025,
-          "value": 2.92,
-          "unit": "%"
-        },
-        {
-          "country": "ベルギー",
-          "countryCode": "BE",
-          "indicator": "インフレ率（HICP）",
-          "indicatorCode": "prc_hicp_manr",
-          "year": 2025,
-          "value": 2.16,
-          "unit": "%"
-        },
-        {
-          "country": "オーストリア",
-          "countryCode": "AT",
-          "indicator": "インフレ率（HICP）",
-          "indicatorCode": "prc_hicp_manr",
-          "year": 2025,
-          "value": 2.63,
-          "unit": "%"
-        },
-        {
-          "country": "スウェーデン",
-          "countryCode": "SE",
-          "indicator": "インフレ率（HICP）",
-          "indicatorCode": "prc_hicp_manr",
-          "year": 2025,
-          "value": 2.19,
-          "unit": "%"
-        },
-        {
-          "country": "デンマーク",
-          "countryCode": "DK",
-          "indicator": "インフレ率（HICP）",
-          "indicatorCode": "prc_hicp_manr",
-          "year": 2025,
-          "value": 1.62,
-          "unit": "%"
-        },
-        {
-          "country": "フィンランド",
-          "countryCode": "FI",
-          "indicator": "インフレ率（HICP）",
-          "indicatorCode": "prc_hicp_manr",
-          "year": 2025,
-          "value": 2.24,
-          "unit": "%"
-        },
-        {
-          "country": "アイルランド",
-          "countryCode": "IE",
-          "indicator": "インフレ率（HICP）",
-          "indicatorCode": "prc_hicp_manr",
-          "year": 2025,
-          "value": 1.07,
-          "unit": "%"
-        },
-        {
-          "country": "ポルトガル",
-          "countryCode": "PT",
-          "indicator": "インフレ率（HICP）",
-          "indicatorCode": "prc_hicp_manr",
-          "year": 2025,
-          "value": 1.52,
-          "unit": "%"
-        },
-        {
-          "country": "チェコ",
-          "countryCode": "CZ",
-          "indicator": "インフレ率（HICP）",
-          "indicatorCode": "prc_hicp_manr",
-          "year": 2025,
-          "value": 2.91,
-          "unit": "%"
-        },
-        {
-          "country": "ハンガリー",
-          "countryCode": "HU",
-          "indicator": "インフレ率（HICP）",
-          "indicatorCode": "prc_hicp_manr",
-          "year": 2025,
+          "year": 2021,
           "value": 4.8,
-          "unit": "%"
-        }
-      ]
-    },
-    "nama_10_pc": {
-      "name": "一人当たりGDP",
-      "data": [
-        {
-          "country": "EU27カ国",
-          "countryCode": "EU27_2020",
-          "indicator": "一人当たりGDP",
-          "indicatorCode": "nama_10_pc",
-          "year": 2024,
-          "value": 9296.11,
-          "unit": "ユーロ"
-        },
-        {
-          "country": "ユーロ圏20カ国",
-          "countryCode": "EA20",
-          "indicator": "一人当たりGDP",
-          "indicatorCode": "nama_10_pc",
-          "year": 2024,
-          "value": 8418.6,
-          "unit": "ユーロ"
-        },
-        {
-          "country": "ドイツ",
-          "countryCode": "DE",
-          "indicator": "一人当たりGDP",
-          "indicatorCode": "nama_10_pc",
-          "year": 2024,
-          "value": 9854.93,
-          "unit": "ユーロ"
-        },
-        {
-          "country": "フランス",
-          "countryCode": "FR",
-          "indicator": "一人当たりGDP",
-          "indicatorCode": "nama_10_pc",
-          "year": 2024,
-          "value": 8771.91,
-          "unit": "ユーロ"
-        },
-        {
-          "country": "イタリア",
-          "countryCode": "IT",
-          "indicator": "一人当たりGDP",
-          "indicatorCode": "nama_10_pc",
-          "year": 2024,
-          "value": 7580.03,
-          "unit": "ユーロ"
-        },
-        {
-          "country": "スペイン",
-          "countryCode": "ES",
-          "indicator": "一人当たりGDP",
-          "indicatorCode": "nama_10_pc",
-          "year": 2024,
-          "value": 6632.69,
-          "unit": "ユーロ"
+          "unit": "EUR"
         },
         {
           "country": "オランダ",
           "countryCode": "NL",
-          "indicator": "一人当たりGDP",
-          "indicatorCode": "nama_10_pc",
-          "year": 2024,
-          "value": 10935.5,
-          "unit": "ユーロ"
+          "indicator": "GDP（現在価格）",
+          "indicatorCode": "nama_10_gdp",
+          "year": 2022,
+          "value": 4.8,
+          "unit": "EUR"
         },
         {
-          "country": "ポーランド",
-          "countryCode": "PL",
-          "indicator": "一人当たりGDP",
-          "indicatorCode": "nama_10_pc",
-          "year": 2024,
-          "value": 7446.68,
-          "unit": "ユーロ"
+          "country": "オランダ",
+          "countryCode": "NL",
+          "indicator": "GDP（現在価格）",
+          "indicatorCode": "nama_10_gdp",
+          "year": 2023,
+          "value": 4.8,
+          "unit": "EUR"
         },
         {
-          "country": "ベルギー",
-          "countryCode": "BE",
-          "indicator": "一人当たりGDP",
-          "indicatorCode": "nama_10_pc",
+          "country": "オランダ",
+          "countryCode": "NL",
+          "indicator": "GDP（現在価格）",
+          "indicatorCode": "nama_10_gdp",
           "year": 2024,
-          "value": 9997.18,
-          "unit": "ユーロ"
+          "value": 4.9,
+          "unit": "EUR"
         },
         {
-          "country": "オーストリア",
-          "countryCode": "AT",
-          "indicator": "一人当たりGDP",
-          "indicatorCode": "nama_10_pc",
-          "year": 2024,
-          "value": 9967.23,
-          "unit": "ユーロ"
+          "country": "オランダ",
+          "countryCode": "NL",
+          "indicator": "GDP（現在価格）",
+          "indicatorCode": "nama_10_gdp",
+          "year": 2025,
+          "value": 5.0,
+          "unit": "EUR"
         },
         {
-          "country": "スウェーデン",
-          "countryCode": "SE",
-          "indicator": "一人当たりGDP",
-          "indicatorCode": "nama_10_pc",
-          "year": 2024,
-          "value": 29524.04,
-          "unit": "ユーロ"
+          "country": "オランダ",
+          "countryCode": "NL",
+          "indicator": "GDP（現在価格）",
+          "indicatorCode": "nama_10_gdp",
+          "year": 2015,
+          "value": 5.0,
+          "unit": "EUR"
         },
         {
-          "country": "デンマーク",
-          "countryCode": "DK",
-          "indicator": "一人当たりGDP",
-          "indicatorCode": "nama_10_pc",
-          "year": 2024,
-          "value": 25670.29,
-          "unit": "ユーロ"
+          "country": "オランダ",
+          "countryCode": "NL",
+          "indicator": "GDP（現在価格）",
+          "indicatorCode": "nama_10_gdp",
+          "year": 2016,
+          "value": 5.0,
+          "unit": "EUR"
         },
         {
-          "country": "フィンランド",
-          "countryCode": "FI",
-          "indicator": "一人当たりGDP",
-          "indicatorCode": "nama_10_pc",
-          "year": 2024,
-          "value": 9700.81,
-          "unit": "ユーロ"
+          "country": "オランダ",
+          "countryCode": "NL",
+          "indicator": "GDP（現在価格）",
+          "indicatorCode": "nama_10_gdp",
+          "year": 2017,
+          "value": 5.1,
+          "unit": "EUR"
         },
         {
-          "country": "アイルランド",
-          "countryCode": "IE",
-          "indicator": "一人当たりGDP",
-          "indicatorCode": "nama_10_pc",
-          "year": 2024,
-          "value": 12816.34,
-          "unit": "ユーロ"
+          "country": "オランダ",
+          "countryCode": "NL",
+          "indicator": "GDP（現在価格）",
+          "indicatorCode": "nama_10_gdp",
+          "year": 2018,
+          "value": 5.2,
+          "unit": "EUR"
         },
         {
-          "country": "ポルトガル",
-          "countryCode": "PT",
-          "indicator": "一人当たりGDP",
-          "indicatorCode": "nama_10_pc",
-          "year": 2024,
-          "value": 5706.75,
-          "unit": "ユーロ"
+          "country": "オランダ",
+          "countryCode": "NL",
+          "indicator": "GDP（現在価格）",
+          "indicatorCode": "nama_10_gdp",
+          "year": 2019,
+          "value": 5.2,
+          "unit": "EUR"
         },
         {
-          "country": "チェコ",
-          "countryCode": "CZ",
-          "indicator": "一人当たりGDP",
-          "indicatorCode": "nama_10_pc",
-          "year": 2024,
-          "value": 28947.9,
-          "unit": "ユーロ"
-        },
-        {
-          "country": "ハンガリー",
-          "countryCode": "HU",
-          "indicator": "一人当たりGDP",
-          "indicatorCode": "nama_10_pc",
-          "year": 2024,
-          "value": 301547.69,
-          "unit": "ユーロ"
-        }
-      ]
-    },
-    "ext_lt_maineu": {
-      "name": "EU域内貿易",
-      "data": [
-        {
-          "country": "EU27カ国",
-          "countryCode": "EU27_2020",
-          "indicator": "EU域内貿易",
-          "indicatorCode": "ext_lt_maineu",
-          "year": 2024,
-          "value": 17130.21,
-          "unit": "ユーロ"
-        }
-      ]
-    },
-    "gov_10dd_edpt1": {
-      "name": "政府債務（GDP比）",
-      "data": [
-        {
-          "country": "EU27カ国",
-          "countryCode": "EU27_2020",
-          "indicator": "政府債務（GDP比）",
-          "indicatorCode": "gov_10dd_edpt1",
-          "year": 2024,
-          "value": 2546074.15,
-          "unit": "%"
-        },
-        {
-          "country": "ユーロ圏20カ国",
-          "countryCode": "EA20",
-          "indicator": "政府債務（GDP比）",
-          "indicatorCode": "gov_10dd_edpt1",
-          "year": 2024,
-          "value": 2259918.85,
-          "unit": "%"
-        },
-        {
-          "country": "ドイツ",
-          "countryCode": "DE",
-          "indicator": "政府債務（GDP比）",
-          "indicatorCode": "gov_10dd_edpt1",
-          "year": 2024,
-          "value": 528555.1,
-          "unit": "%"
-        },
-        {
-          "country": "フランス",
-          "countryCode": "FR",
-          "indicator": "政府債務（GDP比）",
-          "indicatorCode": "gov_10dd_edpt1",
-          "year": 2024,
-          "value": 556893.4,
-          "unit": "%"
-        },
-        {
-          "country": "イタリア",
-          "countryCode": "IT",
-          "indicator": "政府債務（GDP比）",
-          "indicatorCode": "gov_10dd_edpt1",
-          "year": 2024,
-          "value": 473364.27,
-          "unit": "%"
-        },
-        {
-          "country": "スペイン",
-          "countryCode": "ES",
-          "indicator": "政府債務（GDP比）",
-          "indicatorCode": "gov_10dd_edpt1",
-          "year": 2024,
-          "value": 268733.2,
+          "country": "オランダ",
+          "countryCode": "NL",
+          "indicator": "失業率",
+          "indicatorCode": "lfsa_urgan",
+          "year": 2015,
+          "value": 2.6,
           "unit": "%"
         },
         {
           "country": "オランダ",
           "countryCode": "NL",
-          "indicator": "政府債務（GDP比）",
-          "indicatorCode": "gov_10dd_edpt1",
-          "year": 2024,
-          "value": 126359.76,
-          "unit": "%"
-        },
-        {
-          "country": "ポーランド",
-          "countryCode": "PL",
-          "indicator": "政府債務（GDP比）",
-          "indicatorCode": "gov_10dd_edpt1",
-          "year": 2024,
-          "value": 270694.16,
-          "unit": "%"
-        },
-        {
-          "country": "ベルギー",
-          "countryCode": "BE",
-          "indicator": "政府債務（GDP比）",
-          "indicatorCode": "gov_10dd_edpt1",
-          "year": 2024,
-          "value": 103220.78,
-          "unit": "%"
-        },
-        {
-          "country": "オーストリア",
-          "countryCode": "AT",
-          "indicator": "政府債務（GDP比）",
-          "indicatorCode": "gov_10dd_edpt1",
-          "year": 2024,
-          "value": 69400.36,
-          "unit": "%"
-        },
-        {
-          "country": "スウェーデン",
-          "countryCode": "SE",
-          "indicator": "政府債務（GDP比）",
-          "indicatorCode": "gov_10dd_edpt1",
-          "year": 2024,
-          "value": 345790.03,
-          "unit": "%"
-        },
-        {
-          "country": "デンマーク",
-          "countryCode": "DK",
-          "indicator": "政府債務（GDP比）",
-          "indicatorCode": "gov_10dd_edpt1",
-          "year": 2024,
-          "value": 163899.28,
-          "unit": "%"
-        },
-        {
-          "country": "フィンランド",
-          "countryCode": "FI",
-          "indicator": "政府債務（GDP比）",
-          "indicatorCode": "gov_10dd_edpt1",
-          "year": 2024,
-          "value": 42689.59,
-          "unit": "%"
-        },
-        {
-          "country": "アイルランド",
-          "countryCode": "IE",
-          "indicator": "政府債務（GDP比）",
-          "indicatorCode": "gov_10dd_edpt1",
-          "year": 2024,
-          "value": 55557.52,
-          "unit": "%"
-        },
-        {
-          "country": "ポルトガル",
-          "countryCode": "PT",
-          "indicator": "政府債務（GDP比）",
-          "indicatorCode": "gov_10dd_edpt1",
-          "year": 2024,
-          "value": 48145.89,
-          "unit": "%"
-        },
-        {
-          "country": "チェコ",
-          "countryCode": "CZ",
-          "indicator": "政府債務（GDP比）",
-          "indicatorCode": "gov_10dd_edpt1",
-          "year": 2024,
-          "value": 454217.69,
-          "unit": "%"
-        },
-        {
-          "country": "ハンガリー",
-          "countryCode": "HU",
-          "indicator": "政府債務（GDP比）",
-          "indicatorCode": "gov_10dd_edpt1",
-          "year": 2024,
-          "value": 5829176.57,
-          "unit": "%"
-        }
-      ]
-    },
-    "demo_pjan": {
-      "name": "総人口",
-      "data": [
-        {
-          "country": "EU27カ国",
-          "countryCode": "EU27_2020",
-          "indicator": "総人口",
-          "indicatorCode": "demo_pjan",
-          "year": 2024,
-          "value": 5873283.45,
-          "unit": "人"
-        },
-        {
-          "country": "ユーロ圏20カ国",
-          "countryCode": "EA20",
-          "indicator": "総人口",
-          "indicatorCode": "demo_pjan",
-          "year": 2024,
-          "value": 4577438.16,
-          "unit": "人"
-        },
-        {
-          "country": "ドイツ",
-          "countryCode": "DE",
-          "indicator": "総人口",
-          "indicatorCode": "demo_pjan",
-          "year": 2024,
-          "value": 1080337.15,
-          "unit": "人"
-        },
-        {
-          "country": "フランス",
-          "countryCode": "FR",
-          "indicator": "総人口",
-          "indicatorCode": "demo_pjan",
-          "year": 2024,
-          "value": 886308.89,
-          "unit": "人"
-        },
-        {
-          "country": "イタリア",
-          "countryCode": "IT",
-          "indicator": "総人口",
-          "indicatorCode": "demo_pjan",
-          "year": 2024,
-          "value": 763381.62,
-          "unit": "人"
-        },
-        {
-          "country": "スペイン",
-          "countryCode": "ES",
-          "indicator": "総人口",
-          "indicatorCode": "demo_pjan",
-          "year": 2024,
-          "value": 629381.17,
-          "unit": "人"
-        },
-        {
-          "country": "オランダ",
-          "countryCode": "NL",
-          "indicator": "総人口",
-          "indicatorCode": "demo_pjan",
-          "year": 2024,
-          "value": 232271.09,
-          "unit": "人"
-        },
-        {
-          "country": "ポーランド",
-          "countryCode": "PL",
-          "indicator": "総人口",
-          "indicatorCode": "demo_pjan",
-          "year": 2024,
-          "value": 474057.86,
-          "unit": "人"
-        },
-        {
-          "country": "ベルギー",
-          "countryCode": "BE",
-          "indicator": "総人口",
-          "indicatorCode": "demo_pjan",
-          "year": 2024,
-          "value": 152972.12,
-          "unit": "人"
-        },
-        {
-          "country": "オーストリア",
-          "countryCode": "AT",
-          "indicator": "総人口",
-          "indicatorCode": "demo_pjan",
-          "year": 2024,
-          "value": 118559.87,
-          "unit": "人"
-        },
-        {
-          "country": "スウェーデン",
-          "countryCode": "SE",
-          "indicator": "総人口",
-          "indicatorCode": "demo_pjan",
-          "year": 2024,
-          "value": 136591.68,
-          "unit": "人"
-        },
-        {
-          "country": "デンマーク",
-          "countryCode": "DK",
-          "indicator": "総人口",
-          "indicatorCode": "demo_pjan",
-          "year": 2024,
-          "value": 77168.27,
-          "unit": "人"
-        },
-        {
-          "country": "フィンランド",
-          "countryCode": "FI",
-          "indicator": "総人口",
-          "indicatorCode": "demo_pjan",
-          "year": 2024,
-          "value": 72541.76,
-          "unit": "人"
-        },
-        {
-          "country": "アイルランド",
-          "countryCode": "IE",
-          "indicator": "総人口",
-          "indicatorCode": "demo_pjan",
-          "year": 2024,
-          "value": 69277.42,
-          "unit": "人"
-        },
-        {
-          "country": "ポルトガル",
-          "countryCode": "PT",
-          "indicator": "総人口",
-          "indicatorCode": "demo_pjan",
-          "year": 2024,
-          "value": 137731.08,
-          "unit": "人"
-        },
-        {
-          "country": "チェコ",
-          "countryCode": "CZ",
-          "indicator": "総人口",
-          "indicatorCode": "demo_pjan",
-          "year": 2024,
-          "value": 141107.51,
-          "unit": "人"
-        },
-        {
-          "country": "ハンガリー",
-          "countryCode": "HU",
-          "indicator": "総人口",
-          "indicatorCode": "demo_pjan",
-          "year": 2024,
-          "value": 124072.84,
-          "unit": "人"
-        }
-      ]
-    },
-    "demo_gind": {
-      "name": "人口増減率",
-      "data": [
-        {
-          "country": "EU27カ国",
-          "countryCode": "EU27_2020",
-          "indicator": "人口増減率",
-          "indicatorCode": "demo_gind",
-          "year": 2025,
-          "value": 450380320,
-          "unit": "%"
-        },
-        {
-          "country": "ユーロ圏20カ国",
-          "countryCode": "EA20",
-          "indicator": "人口増減率",
-          "indicatorCode": "demo_gind",
-          "year": 2025,
-          "value": 351379988,
-          "unit": "%"
-        },
-        {
-          "country": "ドイツ",
-          "countryCode": "DE",
-          "indicator": "人口増減率",
-          "indicatorCode": "demo_gind",
-          "year": 2025,
-          "value": 83577140,
-          "unit": "%"
-        },
-        {
-          "country": "フランス",
-          "countryCode": "FR",
-          "indicator": "人口増減率",
-          "indicatorCode": "demo_gind",
-          "year": 2025,
-          "value": 68635943,
-          "unit": "%"
-        },
-        {
-          "country": "イタリア",
-          "countryCode": "IT",
-          "indicator": "人口増減率",
-          "indicatorCode": "demo_gind",
-          "year": 2025,
-          "value": 58934177,
-          "unit": "%"
-        },
-        {
-          "country": "スペイン",
-          "countryCode": "ES",
-          "indicator": "人口増減率",
-          "indicatorCode": "demo_gind",
-          "year": 2025,
-          "value": 49077984,
+          "indicator": "失業率",
+          "indicatorCode": "lfsa_urgan",
+          "year": 2016,
+          "value": 3.1,
           "unit": "%"
         },
         {
           "country": "オランダ",
           "countryCode": "NL",
-          "indicator": "人口増減率",
-          "indicatorCode": "demo_gind",
-          "year": 2025,
-          "value": 18044027,
+          "indicator": "失業率",
+          "indicatorCode": "lfsa_urgan",
+          "year": 2017,
+          "value": 2.7,
           "unit": "%"
         },
         {
-          "country": "ポーランド",
-          "countryCode": "PL",
-          "indicator": "人口増減率",
-          "indicatorCode": "demo_gind",
-          "year": 2025,
-          "value": 36497495,
+          "country": "オランダ",
+          "countryCode": "NL",
+          "indicator": "失業率",
+          "indicatorCode": "lfsa_urgan",
+          "year": 2018,
+          "value": 2.2,
           "unit": "%"
         },
         {
-          "country": "ベルギー",
-          "countryCode": "BE",
-          "indicator": "人口増減率",
-          "indicatorCode": "demo_gind",
-          "year": 2025,
-          "value": 11900123,
-          "unit": "%"
-        },
-        {
-          "country": "オーストリア",
-          "countryCode": "AT",
-          "indicator": "人口増減率",
-          "indicatorCode": "demo_gind",
-          "year": 2025,
-          "value": 9197213,
-          "unit": "%"
-        },
-        {
-          "country": "スウェーデン",
-          "countryCode": "SE",
-          "indicator": "人口増減率",
-          "indicatorCode": "demo_gind",
-          "year": 2025,
-          "value": 10587710,
-          "unit": "%"
-        },
-        {
-          "country": "デンマーク",
-          "countryCode": "DK",
-          "indicator": "人口増減率",
-          "indicatorCode": "demo_gind",
-          "year": 2025,
-          "value": 5992734,
-          "unit": "%"
-        },
-        {
-          "country": "フィンランド",
-          "countryCode": "FI",
-          "indicator": "人口増減率",
-          "indicatorCode": "demo_gind",
-          "year": 2025,
-          "value": 5635971,
-          "unit": "%"
-        },
-        {
-          "country": "アイルランド",
-          "countryCode": "IE",
-          "indicator": "人口増減率",
-          "indicatorCode": "demo_gind",
-          "year": 2025,
-          "value": 5439898,
-          "unit": "%"
-        },
-        {
-          "country": "ポルトガル",
-          "countryCode": "PT",
-          "indicator": "人口増減率",
-          "indicatorCode": "demo_gind",
-          "year": 2025,
-          "value": 10749635,
-          "unit": "%"
-        },
-        {
-          "country": "チェコ",
-          "countryCode": "CZ",
-          "indicator": "人口増減率",
-          "indicatorCode": "demo_gind",
-          "year": 2025,
-          "value": 10909500,
-          "unit": "%"
-        },
-        {
-          "country": "ハンガリー",
-          "countryCode": "HU",
-          "indicator": "人口増減率",
-          "indicatorCode": "demo_gind",
-          "year": 2025,
-          "value": 9539502,
+          "country": "オランダ",
+          "countryCode": "NL",
+          "indicator": "失業率",
+          "indicatorCode": "lfsa_urgan",
+          "year": 2019,
+          "value": 2.2,
           "unit": "%"
         }
       ]
     }
+  },
+  "byIndicator": {
+    "nama_10_gdp": [
+      {
+        "country": "EU27",
+        "countryCode": "EU27_2020",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2020,
+        "value": 100.0,
+        "unit": "EUR"
+      },
+      {
+        "country": "EU27",
+        "countryCode": "EU27_2020",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2021,
+        "value": 100.0,
+        "unit": "EUR"
+      },
+      {
+        "country": "EU27",
+        "countryCode": "EU27_2020",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2022,
+        "value": 100.0,
+        "unit": "EUR"
+      },
+      {
+        "country": "EU27",
+        "countryCode": "EU27_2020",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2023,
+        "value": 100.0,
+        "unit": "EUR"
+      },
+      {
+        "country": "EU27",
+        "countryCode": "EU27_2020",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2024,
+        "value": 100.0,
+        "unit": "EUR"
+      },
+      {
+        "country": "EU27",
+        "countryCode": "EU27_2020",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2025,
+        "value": 100.0,
+        "unit": "EUR"
+      },
+      {
+        "country": "EU27",
+        "countryCode": "EU27_2020",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2015,
+        "value": 100.0,
+        "unit": "EUR"
+      },
+      {
+        "country": "EU27",
+        "countryCode": "EU27_2020",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2016,
+        "value": 100.0,
+        "unit": "EUR"
+      },
+      {
+        "country": "EU27",
+        "countryCode": "EU27_2020",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2017,
+        "value": 100.0,
+        "unit": "EUR"
+      },
+      {
+        "country": "EU27",
+        "countryCode": "EU27_2020",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2018,
+        "value": 100.0,
+        "unit": "EUR"
+      },
+      {
+        "country": "ユーロ圏20",
+        "countryCode": "EA20",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2020,
+        "value": 87.0,
+        "unit": "EUR"
+      },
+      {
+        "country": "ユーロ圏20",
+        "countryCode": "EA20",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2021,
+        "value": 87.0,
+        "unit": "EUR"
+      },
+      {
+        "country": "ユーロ圏20",
+        "countryCode": "EA20",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2022,
+        "value": 86.6,
+        "unit": "EUR"
+      },
+      {
+        "country": "ユーロ圏20",
+        "countryCode": "EA20",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2023,
+        "value": 86.4,
+        "unit": "EUR"
+      },
+      {
+        "country": "ユーロ圏20",
+        "countryCode": "EA20",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2024,
+        "value": 86.2,
+        "unit": "EUR"
+      },
+      {
+        "country": "ユーロ圏20",
+        "countryCode": "EA20",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2025,
+        "value": 85.6,
+        "unit": "EUR"
+      },
+      {
+        "country": "ユーロ圏20",
+        "countryCode": "EA20",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2015,
+        "value": 85.7,
+        "unit": "EUR"
+      },
+      {
+        "country": "ユーロ圏20",
+        "countryCode": "EA20",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2016,
+        "value": 85.4,
+        "unit": "EUR"
+      },
+      {
+        "country": "ユーロ圏20",
+        "countryCode": "EA20",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2017,
+        "value": 85.3,
+        "unit": "EUR"
+      },
+      {
+        "country": "ユーロ圏20",
+        "countryCode": "EA20",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2018,
+        "value": 85.2,
+        "unit": "EUR"
+      },
+      {
+        "country": "ユーロ圏20",
+        "countryCode": "EA20",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2019,
+        "value": 84.7,
+        "unit": "EUR"
+      },
+      {
+        "country": "ドイツ",
+        "countryCode": "DE",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2020,
+        "value": 24.7,
+        "unit": "EUR"
+      },
+      {
+        "country": "ドイツ",
+        "countryCode": "DE",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2021,
+        "value": 24.8,
+        "unit": "EUR"
+      },
+      {
+        "country": "ドイツ",
+        "countryCode": "DE",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2022,
+        "value": 24.6,
+        "unit": "EUR"
+      },
+      {
+        "country": "ドイツ",
+        "countryCode": "DE",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2023,
+        "value": 24.6,
+        "unit": "EUR"
+      },
+      {
+        "country": "ドイツ",
+        "countryCode": "DE",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2024,
+        "value": 24.7,
+        "unit": "EUR"
+      },
+      {
+        "country": "ドイツ",
+        "countryCode": "DE",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2025,
+        "value": 24.8,
+        "unit": "EUR"
+      },
+      {
+        "country": "ドイツ",
+        "countryCode": "DE",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2015,
+        "value": 24.9,
+        "unit": "EUR"
+      },
+      {
+        "country": "ドイツ",
+        "countryCode": "DE",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2016,
+        "value": 24.4,
+        "unit": "EUR"
+      },
+      {
+        "country": "ドイツ",
+        "countryCode": "DE",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2017,
+        "value": 24.6,
+        "unit": "EUR"
+      },
+      {
+        "country": "ドイツ",
+        "countryCode": "DE",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2018,
+        "value": 24.4,
+        "unit": "EUR"
+      },
+      {
+        "country": "ドイツ",
+        "countryCode": "DE",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2019,
+        "value": 24.1,
+        "unit": "EUR"
+      },
+      {
+        "country": "フランス",
+        "countryCode": "FR",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2020,
+        "value": 17.6,
+        "unit": "EUR"
+      },
+      {
+        "country": "フランス",
+        "countryCode": "FR",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2021,
+        "value": 17.5,
+        "unit": "EUR"
+      },
+      {
+        "country": "フランス",
+        "countryCode": "FR",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2022,
+        "value": 17.3,
+        "unit": "EUR"
+      },
+      {
+        "country": "フランス",
+        "countryCode": "FR",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2023,
+        "value": 17.2,
+        "unit": "EUR"
+      },
+      {
+        "country": "フランス",
+        "countryCode": "FR",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2024,
+        "value": 17.2,
+        "unit": "EUR"
+      },
+      {
+        "country": "フランス",
+        "countryCode": "FR",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2025,
+        "value": 17.4,
+        "unit": "EUR"
+      },
+      {
+        "country": "フランス",
+        "countryCode": "FR",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2015,
+        "value": 17.7,
+        "unit": "EUR"
+      },
+      {
+        "country": "フランス",
+        "countryCode": "FR",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2016,
+        "value": 17.5,
+        "unit": "EUR"
+      },
+      {
+        "country": "フランス",
+        "countryCode": "FR",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2017,
+        "value": 16.9,
+        "unit": "EUR"
+      },
+      {
+        "country": "フランス",
+        "countryCode": "FR",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2018,
+        "value": 17.0,
+        "unit": "EUR"
+      },
+      {
+        "country": "フランス",
+        "countryCode": "FR",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2019,
+        "value": 16.8,
+        "unit": "EUR"
+      },
+      {
+        "country": "イタリア",
+        "countryCode": "IT",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2020,
+        "value": 15.4,
+        "unit": "EUR"
+      },
+      {
+        "country": "イタリア",
+        "countryCode": "IT",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2021,
+        "value": 15.2,
+        "unit": "EUR"
+      },
+      {
+        "country": "イタリア",
+        "countryCode": "IT",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2022,
+        "value": 15.0,
+        "unit": "EUR"
+      },
+      {
+        "country": "イタリア",
+        "countryCode": "IT",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2023,
+        "value": 14.8,
+        "unit": "EUR"
+      },
+      {
+        "country": "イタリア",
+        "countryCode": "IT",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2024,
+        "value": 14.5,
+        "unit": "EUR"
+      },
+      {
+        "country": "イタリア",
+        "countryCode": "IT",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2025,
+        "value": 14.0,
+        "unit": "EUR"
+      },
+      {
+        "country": "イタリア",
+        "countryCode": "IT",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2015,
+        "value": 13.7,
+        "unit": "EUR"
+      },
+      {
+        "country": "イタリア",
+        "countryCode": "IT",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2016,
+        "value": 13.7,
+        "unit": "EUR"
+      },
+      {
+        "country": "イタリア",
+        "countryCode": "IT",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2017,
+        "value": 13.7,
+        "unit": "EUR"
+      },
+      {
+        "country": "イタリア",
+        "countryCode": "IT",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2018,
+        "value": 13.5,
+        "unit": "EUR"
+      },
+      {
+        "country": "イタリア",
+        "countryCode": "IT",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2019,
+        "value": 13.3,
+        "unit": "EUR"
+      },
+      {
+        "country": "スペイン",
+        "countryCode": "ES",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2020,
+        "value": 9.6,
+        "unit": "EUR"
+      },
+      {
+        "country": "スペイン",
+        "countryCode": "ES",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2021,
+        "value": 9.6,
+        "unit": "EUR"
+      },
+      {
+        "country": "スペイン",
+        "countryCode": "ES",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2022,
+        "value": 9.7,
+        "unit": "EUR"
+      },
+      {
+        "country": "スペイン",
+        "countryCode": "ES",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2023,
+        "value": 9.7,
+        "unit": "EUR"
+      },
+      {
+        "country": "スペイン",
+        "countryCode": "ES",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2024,
+        "value": 9.6,
+        "unit": "EUR"
+      },
+      {
+        "country": "スペイン",
+        "countryCode": "ES",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2025,
+        "value": 9.1,
+        "unit": "EUR"
+      },
+      {
+        "country": "スペイン",
+        "countryCode": "ES",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2015,
+        "value": 9.0,
+        "unit": "EUR"
+      },
+      {
+        "country": "スペイン",
+        "countryCode": "ES",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2016,
+        "value": 9.2,
+        "unit": "EUR"
+      },
+      {
+        "country": "スペイン",
+        "countryCode": "ES",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2017,
+        "value": 9.1,
+        "unit": "EUR"
+      },
+      {
+        "country": "スペイン",
+        "countryCode": "ES",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2018,
+        "value": 9.1,
+        "unit": "EUR"
+      },
+      {
+        "country": "スペイン",
+        "countryCode": "ES",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2019,
+        "value": 9.3,
+        "unit": "EUR"
+      },
+      {
+        "country": "オランダ",
+        "countryCode": "NL",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2020,
+        "value": 4.8,
+        "unit": "EUR"
+      },
+      {
+        "country": "オランダ",
+        "countryCode": "NL",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2021,
+        "value": 4.8,
+        "unit": "EUR"
+      },
+      {
+        "country": "オランダ",
+        "countryCode": "NL",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2022,
+        "value": 4.8,
+        "unit": "EUR"
+      },
+      {
+        "country": "オランダ",
+        "countryCode": "NL",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2023,
+        "value": 4.8,
+        "unit": "EUR"
+      },
+      {
+        "country": "オランダ",
+        "countryCode": "NL",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2024,
+        "value": 4.9,
+        "unit": "EUR"
+      },
+      {
+        "country": "オランダ",
+        "countryCode": "NL",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2025,
+        "value": 5.0,
+        "unit": "EUR"
+      },
+      {
+        "country": "オランダ",
+        "countryCode": "NL",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2015,
+        "value": 5.0,
+        "unit": "EUR"
+      },
+      {
+        "country": "オランダ",
+        "countryCode": "NL",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2016,
+        "value": 5.0,
+        "unit": "EUR"
+      },
+      {
+        "country": "オランダ",
+        "countryCode": "NL",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2017,
+        "value": 5.1,
+        "unit": "EUR"
+      },
+      {
+        "country": "オランダ",
+        "countryCode": "NL",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2018,
+        "value": 5.2,
+        "unit": "EUR"
+      },
+      {
+        "country": "オランダ",
+        "countryCode": "NL",
+        "indicator": "GDP（現在価格）",
+        "indicatorCode": "nama_10_gdp",
+        "year": 2019,
+        "value": 5.2,
+        "unit": "EUR"
+      }
+    ],
+    "lfsa_urgan": [
+      {
+        "country": "EU27",
+        "countryCode": "EU27_2020",
+        "indicator": "失業率",
+        "indicatorCode": "lfsa_urgan",
+        "year": 2015,
+        "value": 4.9,
+        "unit": "%"
+      },
+      {
+        "country": "EU27",
+        "countryCode": "EU27_2020",
+        "indicator": "失業率",
+        "indicatorCode": "lfsa_urgan",
+        "year": 2016,
+        "value": 5.2,
+        "unit": "%"
+      },
+      {
+        "country": "EU27",
+        "countryCode": "EU27_2020",
+        "indicator": "失業率",
+        "indicatorCode": "lfsa_urgan",
+        "year": 2017,
+        "value": 4.6,
+        "unit": "%"
+      },
+      {
+        "country": "EU27",
+        "countryCode": "EU27_2020",
+        "indicator": "失業率",
+        "indicatorCode": "lfsa_urgan",
+        "year": 2018,
+        "value": 4.4,
+        "unit": "%"
+      },
+      {
+        "country": "EU27",
+        "countryCode": "EU27_2020",
+        "indicator": "失業率",
+        "indicatorCode": "lfsa_urgan",
+        "year": 2019,
+        "value": 4.2,
+        "unit": "%"
+      },
+      {
+        "country": "ユーロ圏20",
+        "countryCode": "EA20",
+        "indicator": "失業率",
+        "indicatorCode": "lfsa_urgan",
+        "year": 2015,
+        "value": 5.4,
+        "unit": "%"
+      },
+      {
+        "country": "ユーロ圏20",
+        "countryCode": "EA20",
+        "indicator": "失業率",
+        "indicatorCode": "lfsa_urgan",
+        "year": 2016,
+        "value": 5.7,
+        "unit": "%"
+      },
+      {
+        "country": "ユーロ圏20",
+        "countryCode": "EA20",
+        "indicator": "失業率",
+        "indicatorCode": "lfsa_urgan",
+        "year": 2017,
+        "value": 5.1,
+        "unit": "%"
+      },
+      {
+        "country": "ユーロ圏20",
+        "countryCode": "EA20",
+        "indicator": "失業率",
+        "indicatorCode": "lfsa_urgan",
+        "year": 2018,
+        "value": 4.8,
+        "unit": "%"
+      },
+      {
+        "country": "ユーロ圏20",
+        "countryCode": "EA20",
+        "indicator": "失業率",
+        "indicatorCode": "lfsa_urgan",
+        "year": 2019,
+        "value": 4.5,
+        "unit": "%"
+      },
+      {
+        "country": "ドイツ",
+        "countryCode": "DE",
+        "indicator": "失業率",
+        "indicatorCode": "lfsa_urgan",
+        "year": 2015,
+        "value": 2.8,
+        "unit": "%"
+      },
+      {
+        "country": "ドイツ",
+        "countryCode": "DE",
+        "indicator": "失業率",
+        "indicatorCode": "lfsa_urgan",
+        "year": 2016,
+        "value": 2.7,
+        "unit": "%"
+      },
+      {
+        "country": "ドイツ",
+        "countryCode": "DE",
+        "indicator": "失業率",
+        "indicatorCode": "lfsa_urgan",
+        "year": 2017,
+        "value": 2.4,
+        "unit": "%"
+      },
+      {
+        "country": "ドイツ",
+        "countryCode": "DE",
+        "indicator": "失業率",
+        "indicatorCode": "lfsa_urgan",
+        "year": 2018,
+        "value": 2.2,
+        "unit": "%"
+      },
+      {
+        "country": "ドイツ",
+        "countryCode": "DE",
+        "indicator": "失業率",
+        "indicatorCode": "lfsa_urgan",
+        "year": 2019,
+        "value": 2.3,
+        "unit": "%"
+      },
+      {
+        "country": "フランス",
+        "countryCode": "FR",
+        "indicator": "失業率",
+        "indicatorCode": "lfsa_urgan",
+        "year": 2020,
+        "value": 23.4,
+        "unit": "%"
+      },
+      {
+        "country": "フランス",
+        "countryCode": "FR",
+        "indicator": "失業率",
+        "indicatorCode": "lfsa_urgan",
+        "year": 2021,
+        "value": 25.4,
+        "unit": "%"
+      },
+      {
+        "country": "フランス",
+        "countryCode": "FR",
+        "indicator": "失業率",
+        "indicatorCode": "lfsa_urgan",
+        "year": 2022,
+        "value": 39.0,
+        "unit": "%"
+      },
+      {
+        "country": "フランス",
+        "countryCode": "FR",
+        "indicator": "失業率",
+        "indicatorCode": "lfsa_urgan",
+        "year": 2015,
+        "value": 5.5,
+        "unit": "%"
+      },
+      {
+        "country": "フランス",
+        "countryCode": "FR",
+        "indicator": "失業率",
+        "indicatorCode": "lfsa_urgan",
+        "year": 2016,
+        "value": 5.8,
+        "unit": "%"
+      },
+      {
+        "country": "フランス",
+        "countryCode": "FR",
+        "indicator": "失業率",
+        "indicatorCode": "lfsa_urgan",
+        "year": 2017,
+        "value": 5.2,
+        "unit": "%"
+      },
+      {
+        "country": "フランス",
+        "countryCode": "FR",
+        "indicator": "失業率",
+        "indicatorCode": "lfsa_urgan",
+        "year": 2018,
+        "value": 5.1,
+        "unit": "%"
+      },
+      {
+        "country": "フランス",
+        "countryCode": "FR",
+        "indicator": "失業率",
+        "indicatorCode": "lfsa_urgan",
+        "year": 2019,
+        "value": 4.9,
+        "unit": "%"
+      },
+      {
+        "country": "イタリア",
+        "countryCode": "IT",
+        "indicator": "失業率",
+        "indicatorCode": "lfsa_urgan",
+        "year": 2015,
+        "value": 5.3,
+        "unit": "%"
+      },
+      {
+        "country": "イタリア",
+        "countryCode": "IT",
+        "indicator": "失業率",
+        "indicatorCode": "lfsa_urgan",
+        "year": 2016,
+        "value": 5.8,
+        "unit": "%"
+      },
+      {
+        "country": "イタリア",
+        "countryCode": "IT",
+        "indicator": "失業率",
+        "indicatorCode": "lfsa_urgan",
+        "year": 2017,
+        "value": 5.1,
+        "unit": "%"
+      },
+      {
+        "country": "イタリア",
+        "countryCode": "IT",
+        "indicator": "失業率",
+        "indicatorCode": "lfsa_urgan",
+        "year": 2018,
+        "value": 4.8,
+        "unit": "%"
+      },
+      {
+        "country": "イタリア",
+        "countryCode": "IT",
+        "indicator": "失業率",
+        "indicatorCode": "lfsa_urgan",
+        "year": 2019,
+        "value": 4.1,
+        "unit": "%"
+      },
+      {
+        "country": "スペイン",
+        "countryCode": "ES",
+        "indicator": "失業率",
+        "indicatorCode": "lfsa_urgan",
+        "year": 2015,
+        "value": 12.2,
+        "unit": "%"
+      },
+      {
+        "country": "スペイン",
+        "countryCode": "ES",
+        "indicator": "失業率",
+        "indicatorCode": "lfsa_urgan",
+        "year": 2016,
+        "value": 12.7,
+        "unit": "%"
+      },
+      {
+        "country": "スペイン",
+        "countryCode": "ES",
+        "indicator": "失業率",
+        "indicatorCode": "lfsa_urgan",
+        "year": 2017,
+        "value": 11.7,
+        "unit": "%"
+      },
+      {
+        "country": "スペイン",
+        "countryCode": "ES",
+        "indicator": "失業率",
+        "indicatorCode": "lfsa_urgan",
+        "year": 2018,
+        "value": 10.7,
+        "unit": "%"
+      },
+      {
+        "country": "スペイン",
+        "countryCode": "ES",
+        "indicator": "失業率",
+        "indicatorCode": "lfsa_urgan",
+        "year": 2019,
+        "value": 9.9,
+        "unit": "%"
+      },
+      {
+        "country": "オランダ",
+        "countryCode": "NL",
+        "indicator": "失業率",
+        "indicatorCode": "lfsa_urgan",
+        "year": 2015,
+        "value": 2.6,
+        "unit": "%"
+      },
+      {
+        "country": "オランダ",
+        "countryCode": "NL",
+        "indicator": "失業率",
+        "indicatorCode": "lfsa_urgan",
+        "year": 2016,
+        "value": 3.1,
+        "unit": "%"
+      },
+      {
+        "country": "オランダ",
+        "countryCode": "NL",
+        "indicator": "失業率",
+        "indicatorCode": "lfsa_urgan",
+        "year": 2017,
+        "value": 2.7,
+        "unit": "%"
+      },
+      {
+        "country": "オランダ",
+        "countryCode": "NL",
+        "indicator": "失業率",
+        "indicatorCode": "lfsa_urgan",
+        "year": 2018,
+        "value": 2.2,
+        "unit": "%"
+      },
+      {
+        "country": "オランダ",
+        "countryCode": "NL",
+        "indicator": "失業率",
+        "indicatorCode": "lfsa_urgan",
+        "year": 2019,
+        "value": 2.2,
+        "unit": "%"
+      }
+    ]
   },
   "summary": {
-    "totalRecords": 1268,
-    "countries": [
-      "EU27_2020",
-      "EA20",
-      "DE",
-      "FR",
-      "IT",
-      "ES",
-      "NL",
-      "PL",
-      "BE",
-      "AT",
-      "SE",
-      "DK",
-      "FI",
-      "IE",
-      "PT",
-      "CZ",
-      "HU",
-      "GR"
-    ],
-    "indicators": [
-      "teilm020",
-      "nama_10_gdp",
-      "tec00115",
-      "prc_hicp_manr",
-      "nama_10_pc",
-      "ext_lt_maineu",
-      "gov_10dd_edpt1",
-      "demo_pjan",
-      "demo_gind"
-    ],
-    "yearRange": {
-      "min": 2015,
-      "max": 2025
-    },
-    "lastUpdated": "2025-11-05T10:49:19.931Z"
+    "totalRecords": 114,
+    "countries": 7,
+    "indicators": 2
   }
 }
