@@ -435,44 +435,44 @@ export default function Home() {
               )}
 
               {/* GDP Growth Rate */}
-              {getIndicatorChartData("tec00115").length > 0 && (
+              {getIndicatorChartData("nama_10_gdp").length > 0 && (
                 <Card className="bg-white border-gray-200">
                   <CardHeader>
                     <CardTitle className="text-lg">GDP成長率（実質）の推移</CardTitle>
                   </CardHeader>
                   <CardContent>
                     <ResponsiveContainer width="100%" height={300}>
-                      <ComposedChart data={getIndicatorChartData("tec00115")}>
+                      <BarChart data={getIndicatorChartData("nama_10_gdp")}>
                         <CartesianGrid strokeDasharray="3 3" />
-                        <XAxis dataKey="year" />
+                        <XAxis dataKey="year" angle={-45} textAnchor="end" height={80} />
                         <YAxis />
                         <Tooltip 
-                          formatter={(value) => `${value}%`}
+                          formatter={(value) => `€${(value as number).toLocaleString()}`}
                           labelFormatter={(label) => `年: ${label}`}
                         />
                         <Legend />
                         <Bar 
                           dataKey="value" 
                           fill="#8b5cf6"
-                          name="成長率 (%)"
+                          name="GDP (€百万)"
                         />
-                      </ComposedChart>
+                      </BarChart>
                     </ResponsiveContainer>
                   </CardContent>
                 </Card>
               )}
 
               {/* Inflation Rate */}
-              {getIndicatorChartData("prc_hicp_aind") && getIndicatorChartData("prc_hicp_aind").length > 0 && (
+              {getIndicatorChartData("prc_hicp_manr").length > 0 && (
                 <Card className="bg-white border-gray-200">
                   <CardHeader>
-                    <CardTitle className="text-lg">インフレ率（HICP）の推移</CardTitle>
+                    <CardTitle className="text-lg">インフレ率（HICP年間変化率）の推移</CardTitle>
                   </CardHeader>
                   <CardContent>
                     <ResponsiveContainer width="100%" height={300}>
-                      <LineChart data={getIndicatorChartData("prc_hicp_aind")}>
+                      <LineChart data={getIndicatorChartData("prc_hicp_manr")}>
                         <CartesianGrid strokeDasharray="3 3" />
-                        <XAxis dataKey="year" />
+                        <XAxis dataKey="year" angle={-45} textAnchor="end" height={80} />
                         <YAxis />
                         <Tooltip 
                           formatter={(value) => `${value}%`}
