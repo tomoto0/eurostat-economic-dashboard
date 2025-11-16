@@ -200,7 +200,7 @@ export default function Home() {
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
                   <TrendingUp className="w-5 h-5 text-blue-600" />
-                  {analysisData.title}
+                  {analysisData.title} [Updated]
                 </CardTitle>
                 <CardDescription>最終更新: {new Date(analysisData.generatedAt).toLocaleString("ja-JP")}</CardDescription>
               </CardHeader>
