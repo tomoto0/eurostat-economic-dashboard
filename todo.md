@@ -70,3 +70,15 @@
 - [ ] Manus LLMを活用した2025-2026年の経済予測セクション追加
 - [ ] より多くの国の詳細分析データの追加
 - [ ] 月次データの取得と表示（四半期ベースのデータ）
+
+
+## Stripe Payment Integration
+
+- [x] Stripe機能の有効化（webdev_add_feature）
+- [x] Stripeシークレットキーの設定
+- [x] データベーススキーマの拡張（purchasesテーブル）
+- [x] Stripe APIバックエンド実装（Checkout Session、商品定義）
+- [x] 決済UI実装（購入ページ、成功・キャンセルページ）
+- [x] Webhook処理実装（決済成功イベント）
+- [x] 決済履歴取得機能（getPurchaseHistory）
+- [ ] テスト・デプロイ

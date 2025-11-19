@@ -1,6 +1,6 @@
 import { eq } from "drizzle-orm";
 import { drizzle } from "drizzle-orm/mysql2";
-import { InsertUser, users, economicData, aiAnalysisResults } from "../drizzle/schema";
+import { InsertUser, users, economicData, aiAnalysisResults, purchases, InsertPurchase } from "../drizzle/schema";
 import { ENV } from './_core/env';
 
 let _db: ReturnType<typeof drizzle> | null = null;
@@ -177,5 +177,94 @@ export async function getAIAnalysisResults(analysisType?: string, targetCode?: s
   } catch (error) {
     console.error("[Database] Failed to get AI analysis results:", error);
     return [];
+  }
+}
+
+
+/**
+ * Create a new purchase record
+ */
+export async function createPurchase(purchase: InsertPurchase) {
+  const db = await getDb();
+  if (!db) {
+    console.warn("[Database] Cannot create purchase: database not available");
+    return null;
+  }
+
+  try {
+    const result = await db.insert(purchases).values(purchase);
+    return result;
+  } catch (error) {
+    console.error("[Database] Failed to create purchase:", error);
+    throw error;
+  }
+}
+
+/**
+ * Get purchases by user ID
+ */
+export async function getPurchasesByUserId(userId: number) {
+  const db = await getDb();
+  if (!db) {
+    console.warn("[Database] Cannot get purchases: database not available");
+    return [];
+  }
+
+  try {
+    const result = await db.select().from(purchases).where(eq(purchases.userId, userId));
+    return result;
+  } catch (error) {
+    console.error("[Database] Failed to get purchases by user ID:", error);
+    return [];
+  }
+}
+
+/**
+ * Get purchase by Stripe Payment Intent ID
+ */
+export async function getPurchaseByStripePaymentIntentId(paymentIntentId: string) {
+  const db = await getDb();
+  if (!db) {
+    console.warn("[Database] Cannot get purchase: database not available");
+    return null;
+  }
+
+  try {
+    const result = await db
+      .select()
+      .from(purchases)
+      .where(eq(purchases.stripePaymentIntentId, paymentIntentId))
+      .limit(1);
+    return result.length > 0 ? result[0] : null;
+  } catch (error) {
+    console.error("[Database] Failed to get purchase by Stripe Payment Intent ID:", error);
+    return null;
+  }
+}
+
+/**
+ * Update purchase status
+ */
+export async function updatePurchaseStatus(purchaseId: number, status: string, purchasedAt?: Date) {
+  const db = await getDb();
+  if (!db) {
+    console.warn("[Database] Cannot update purchase: database not available");
+    return null;
+  }
+
+  try {
+    const updateData: any = { status };
+    if (purchasedAt) {
+      updateData.purchasedAt = purchasedAt;
+    }
+    
+    const result = await db
+      .update(purchases)
+      .set(updateData)
+      .where(eq(purchases.id, purchaseId));
+    return result;
+  } catch (error) {
+    console.error("[Database] Failed to update purchase status:", error);
+    throw error;
   }
 }

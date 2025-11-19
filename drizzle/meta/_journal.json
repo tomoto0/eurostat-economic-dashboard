@@ -15,6 +15,13 @@
       "when": 1762339947724,
       "tag": "0001_lush_gabe_jones",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1763421313869,
+      "tag": "0002_tearful_hiroim",
+      "breakpoints": true
     }
   ]
 }

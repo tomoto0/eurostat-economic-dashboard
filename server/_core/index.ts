@@ -30,6 +30,70 @@ async function findAvailablePort(startPort: number = 3000): Promise<number> {
 async function startServer() {
   const app = express();
   const server = createServer(app);
+  
+  // Stripe webhook endpoint (must be before express.json())
+  app.post(
+    "/api/stripe/webhook",
+    express.raw({ type: "application/json" }),
+    async (req, res) => {
+      const Stripe = (await import("stripe")).default;
+      const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!);
+      const sig = req.headers["stripe-signature"] as string;
+
+      let event;
+      try {
+        event = stripe.webhooks.constructEvent(
+          req.body,
+          sig,
+          process.env.STRIPE_WEBHOOK_SECRET!
+        );
+      } catch (err: any) {
+        console.error("Webhook signature verification failed:", err.message);
+        return res.status(400).send(`Webhook Error: ${err.message}`);
+      }
+
+      if (event.id.startsWith("evt_test_")) {
+        console.log("[Webhook] Test event detected");
+        return res.json({ verified: true });
+      }
+
+      try {
+        if (event.type === "checkout.session.completed") {
+          const session = event.data.object as any;
+          const { createPurchase, updatePurchaseStatus, getPurchaseByStripePaymentIntentId } = await import("../db");
+          
+          const userId = parseInt(session.client_reference_id);
+          const paymentIntentId = session.payment_intent;
+          
+          let purchase = await getPurchaseByStripePaymentIntentId(paymentIntentId);
+          
+          if (!purchase) {
+            const metadata = session.metadata || {};
+            await createPurchase({
+              userId,
+              stripePaymentIntentId: paymentIntentId,
+              stripeCustomerId: session.customer,
+              productName: metadata.product_id || "Premium Analysis Report",
+              amount: Math.round((session.amount_total || 0) / 100) * 100,
+              currency: (session.currency || "usd").toUpperCase(),
+              status: "completed",
+              purchasedAt: new Date(),
+            });
+          } else {
+            await updatePurchaseStatus(purchase.id, "completed", new Date());
+          }
+          
+          console.log(`[Webhook] Payment completed for user ${userId}`);
+        }
+      } catch (err: any) {
+        console.error("Error processing webhook:", err);
+        return res.status(500).json({ error: "Internal server error" });
+      }
+
+      res.json({ received: true });
+    }
+  );
+  
   // Configure body parser with larger size limit for file uploads
   app.use(express.json({ limit: "50mb" }));
   app.use(express.urlencoded({ limit: "50mb", extended: true }));

@@ -60,3 +60,24 @@ export const aiAnalysisResults = mysqlTable("ai_analysis_results", {
 
 export type AIAnalysisResult = typeof aiAnalysisResults.$inferSelect;
 export type InsertAIAnalysisResult = typeof aiAnalysisResults.$inferInsert;
+
+/**
+ * Purchases Table
+ * Stores one-time purchase records for premium analysis reports
+ */
+export const purchases = mysqlTable("purchases", {
+  id: int("id").autoincrement().primaryKey(),
+  userId: int("userId").notNull(),
+  stripePaymentIntentId: varchar("stripePaymentIntentId", { length: 255 }).notNull().unique(),
+  stripeCustomerId: varchar("stripeCustomerId", { length: 255 }),
+  productName: varchar("productName", { length: 255 }).notNull(),
+  amount: int("amount").notNull(),
+  currency: varchar("currency", { length: 3 }).default("USD").notNull(),
+  status: mysqlEnum("status", ["pending", "completed", "failed", "refunded"]).default("pending").notNull(),
+  purchasedAt: timestamp("purchasedAt"),
+  createdAt: timestamp("createdAt").defaultNow().notNull(),
+  updatedAt: timestamp("updatedAt").defaultNow().onUpdateNow().notNull(),
+});
+
+export type Purchase = typeof purchases.$inferSelect;
+export type InsertPurchase = typeof purchases.$inferInsert;
