@@ -60,7 +60,8 @@ async function startServer() {
       try {
         if (event.type === "checkout.session.completed") {
           const session = event.data.object as any;
-          const { createPurchase, updatePurchaseStatus, getPurchaseByStripePaymentIntentId } = await import("../db");
+          const { createPurchase, updatePurchaseStatus, getPurchaseByStripePaymentIntentId, getUserByOpenId } = await import("../db");
+          const { sendPaymentConfirmationEmail } = await import("../email");
           
           const userId = parseInt(session.client_reference_id);
           const paymentIntentId = session.payment_intent;
@@ -81,6 +82,23 @@ async function startServer() {
             });
           } else {
             await updatePurchaseStatus(purchase.id, "completed", new Date());
+          }
+          
+          // Send confirmation email
+          try {
+            const user = await getUserByOpenId(String(userId));
+            if (user && user.email) {
+              const metadata = session.metadata || {};
+              await sendPaymentConfirmationEmail(
+                user.email,
+                user.name || "User",
+                metadata.product_id || "Premium Analysis Report",
+                Math.round((session.amount_total || 0) / 100) * 100,
+                (session.currency || "usd").toUpperCase()
+              );
+            }
+          } catch (emailErr) {
+            console.warn("[Webhook] Failed to send confirmation email:", emailErr);
           }
           
           console.log(`[Webhook] Payment completed for user ${userId}`);

@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Loader2, TrendingUp, Globe, BarChart3 } from "lucide-react";
+import { Loader2, TrendingUp, Globe, BarChart3, Zap } from "lucide-react";
+import { useLocation } from "wouter";
 import { useEffect, useState, useMemo } from "react";
 import {
   LineChart,
@@ -51,6 +52,7 @@ interface AnalysisResult {
 }
 
 export default function Home() {
+  const [, navigate] = useLocation();
   const [analysisData, setAnalysisData] = useState<AnalysisResult | null>(null);
   const [economicData, setEconomicData] = useState<EconomicDataFile | null>(null);
   const [selectedCountry, setSelectedCountry] = useState<string>("EU27_2020");
@@ -190,6 +192,47 @@ export default function Home() {
           </div>
         </div>
       </header>
+      {/* Premium Report CTA Section */}
+      <section className="mb-8 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-lg shadow-lg p-8 text-white">
+        <div className="flex items-start justify-between">
+          <div className="flex-1">
+            <div className="flex items-center gap-2 mb-3">
+              <Zap className="w-6 h-6" />
+              <h2 className="text-2xl font-bold">プレミアム分析レポート</h2>
+            </div>
+            <p className="text-blue-100 mb-4">
+              EU27カ国の詳細な経済分析レポート（PDF形式）。AI生成による経済予測と国別比較分析が含まれます。
+            </p>
+            <ul className="space-y-2 text-sm text-blue-100 mb-6">
+              <li className="flex items-center gap-2">
+                <span className="text-blue-300">✓</span>
+                <span>詳細な経済分析レポート（PDF形式）</span>
+              </li>
+              <li className="flex items-center gap-2">
+                <span className="text-blue-300">✓</span>
+                <span>AI生成による経済予測</span>
+              </li>
+              <li className="flex items-center gap-2">
+                <span className="text-blue-300">✓</span>
+                <span>国別比較分析と高解像度チャート</span>
+              </li>
+            </ul>
+            <div className="flex items-center gap-4">
+              <div>
+                <p className="text-3xl font-bold">$29.99</p>
+                <p className="text-sm text-blue-100">ワンタイム購入</p>
+              </div>
+              <Button
+                onClick={() => navigate("/premium-report")}
+                className="bg-white text-blue-600 hover:bg-blue-50 font-semibold px-6 py-2"
+              >
+                今すぐ購入
+              </Button>
+            </div>
+          </div>
+        </div>
+      </section>
+
 
       {/* Main Content */}
       <main className="max-w-7xl mx-auto px-4 py-8">
