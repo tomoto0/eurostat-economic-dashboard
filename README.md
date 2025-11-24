@@ -8,7 +8,7 @@
 
 ## メイン画面
 
-![Eurostat Economic Dashboard](https://eurodash-ygpctjpf.manus.space/screenshot.png)
+![Eurostat Economic Dashboard](https://files.manuscdn.com/user_upload_by_module/session_file/116693025/epyneoRWlajkEyPt.jpg)
 
 ダッシュボードは以下の主要セクションで構成されています：
 
